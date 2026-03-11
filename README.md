@@ -89,10 +89,10 @@ tests/smoke/ # per-skill smoke-test outputs
 
 ## Build with me / 一起共建
 
-Hi, I’m **Razestar**.
-I’m building AI-native growth systems for creators.
+Hi, I’m Leroy at **Razestar**.
+I’m building AI-native marketing systems for creators.
 
-你好，我是 **Razestar**，在做面向创作者的 AI 增长系统。
+你好，我是 **Razestar**的清酒，在做面向创作者的 AI 营销系统。
 
 If you want to co-build new skills, improve existing workflows, or propose a use case, welcome to connect:
 
