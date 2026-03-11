@@ -1,0 +1,127 @@
+{
+  "project": "creator-skills",
+  "owner": "Razestar",
+  "version": "rolling",
+  "skills": [
+    {
+      "slug": "creator-search-intent-radar",
+      "category": "Market Intelligence",
+      "problem": "What should we post next with real demand signals?",
+      "input": "TikTok/YouTube/Instagram trend snippets, search hints, comments/DM FAQs",
+      "output": "Ranked topic backlog + platform fit + hook directions + CTA",
+      "best_for": "Weekly planning and topic prioritization",
+      "handoff": "Send top 3 topics into Creatop script workflow",
+      "status": "stable",
+      "stage": "discovery",
+      "priority": 1
+    },
+    {
+      "slug": "short-video-hook-lab",
+      "category": "Creator Content",
+      "problem": "How to improve first-3-second retention?",
+      "input": "Raw script or opening lines + target audience + product angle",
+      "output": "Ranked hook variants with rationale and filming complexity",
+      "best_for": "Hook iteration before recording",
+      "handoff": "Push winning hook into Creatop script composer",
+      "status": "stable",
+      "stage": "creation",
+      "priority": 2
+    },
+    {
+      "slug": "creator-deal-ops",
+      "category": "Operations",
+      "problem": "How to run creator sponsorships without chaos?",
+      "input": "Brand brief, deliverables, timeline, revision/payment rules",
+      "output": "Deal plan, risk flags, revision/payment checklist",
+      "best_for": "Sponsor collaboration operations",
+      "handoff": "Export checklist into team SOP / Notion / Feishu",
+      "status": "stable",
+      "stage": "operations",
+      "priority": 3
+    },
+    {
+      "slug": "cross-platform-recut-planner",
+      "category": "Creator Content",
+      "problem": "How to repurpose one idea across TikTok/Reels/Shorts?",
+      "input": "Source concept/video + channel goals + constraints",
+      "output": "Platform-specific recut matrix with hooks/CTA/length",
+      "best_for": "Cross-channel distribution planning",
+      "handoff": "Generate platform-specific script variants in Creatop",
+      "status": "stable",
+      "stage": "distribution",
+      "priority": 4
+    },
+    {
+      "slug": "creator-monetization-risk-checker",
+      "category": "Compliance",
+      "problem": "Will this content hurt monetization or distribution?",
+      "input": "Draft script/caption + product claim language + platform context",
+      "output": "Risk audit + safer rewrite suggestions",
+      "best_for": "Pre-publish compliance check",
+      "handoff": "Run final safe version through Creatop publishing workflow",
+      "status": "stable",
+      "stage": "risk-control",
+      "priority": 5
+    },
+    {
+      "slug": "ugc-brief-to-script-engine",
+      "category": "Creator Content",
+      "problem": "How to turn a brand brief into creator-native scripts?",
+      "input": "Brand brief, ICP, product facts, forbidden claims",
+      "output": "Script pack (angles, hooks, CTA, proof points)",
+      "best_for": "UGC production and agency workflows",
+      "handoff": "Batch-generate and review scripts via Creatop",
+      "status": "stable",
+      "stage": "creation",
+      "priority": 6
+    },
+    {
+      "slug": "creator-attribution-lite",
+      "category": "Measurement",
+      "problem": "Which content actions actually move outcomes?",
+      "input": "Content list + campaign metadata + simple outcome fields",
+      "output": "Lightweight attribution view + insight notes",
+      "best_for": "Small-team performance review",
+      "handoff": "Feed winning patterns back to Creatop templates",
+      "status": "stable",
+      "stage": "measurement",
+      "priority": 7
+    },
+    {
+      "slug": "batch-content-sprint-os",
+      "category": "Operations",
+      "problem": "How to ship weekly content without burnout?",
+      "input": "Weekly goals, team bandwidth, channel priorities",
+      "output": "Sprint board + realistic publishing cadence",
+      "best_for": "Weekly execution planning",
+      "handoff": "Use sprint outputs to drive Creatop batch generation",
+      "status": "stable",
+      "stage": "operations",
+      "priority": 8
+    },
+    {
+      "slug": "creator-proof-portfolio-builder",
+      "category": "Conversion",
+      "problem": "How to present creator proof to close better deals?",
+      "input": "Results, examples, testimonials, benchmark data",
+      "output": "One-page proof pack for outreach",
+      "best_for": "Creator outbound and partnership conversion",
+      "handoff": "Attach proof pack in outreach sequence",
+      "status": "stable",
+      "stage": "conversion",
+      "priority": 9
+    },
+    {
+      "slug": "comment-to-content-recycler",
+      "category": "Market Intelligence",
+      "problem": "How to convert comments/DMs into content pipeline?",
+      "input": "Comments, DMs, objections, FAQ snippets",
+      "output": "Intent clusters + prioritized content backlog",
+      "best_for": "Always-on content ideation",
+      "handoff": "Send high-priority clusters into Creatop script queue",
+      "status": "stable",
+      "stage": "discovery",
+      "priority": 10
+    }
+  ]
+}

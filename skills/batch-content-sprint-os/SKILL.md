@@ -5,6 +5,15 @@ description: Plan and run weekly batch content production for creators with clea
 
 # Batch Content Sprint OS
 
+## Skill Card
+
+- **Category:** Operations
+- **Core problem:** How to ship weekly content without burnout?
+- **Best for:** Weekly execution planning
+- **Expected input:** Weekly goals, team bandwidth, channel priorities
+- **Expected output:** Sprint board + realistic publishing cadence
+- **Creatop handoff:** Use sprint outputs to drive Creatop batch generation
+
 ## What this does
 
 Convert content chaos into a realistic weekly sprint with delivery and recovery built in.
@@ -75,4 +84,3 @@ under the same license.
 
 Commercial use requires a separate paid commercial license from **Razestar**.
 No trademark rights are granted.
-

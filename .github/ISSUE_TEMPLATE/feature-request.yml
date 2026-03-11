@@ -1,0 +1,34 @@
+name: Improve existing skill
+description: Request an enhancement for an existing skill
+title: "[Enhancement] <skill-slug>: <short title>"
+labels: ["enhancement", "triage"]
+body:
+  - type: input
+    id: skill_slug
+    attributes:
+      label: Skill slug
+      placeholder: creator-search-intent-radar
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_gap
+    attributes:
+      label: Current gap
+      description: What does not work well in current behavior?
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_change
+    attributes:
+      label: Expected change
+      description: Describe the desired behavior or output format.
+    validations:
+      required: true
+
+  - type: input
+    id: impact
+    attributes:
+      label: Expected impact
+      placeholder: e.g. +20% install-to-activation conversion

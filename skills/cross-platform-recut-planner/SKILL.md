@@ -5,6 +5,15 @@ description: Repackage one core content idea into platform-native versions for T
 
 # Cross Platform Recut Planner
 
+## Skill Card
+
+- **Category:** Creator Content
+- **Core problem:** How to repurpose one idea across TikTok/Reels/Shorts?
+- **Best for:** Cross-channel distribution planning
+- **Expected input:** Source concept/video + channel goals + constraints
+- **Expected output:** Platform-specific recut matrix with hooks/CTA/length
+- **Creatop handoff:** Generate platform-specific script variants in Creatop
+
 ## What this does
 
 Turn one core idea into three native cuts:
@@ -67,4 +76,3 @@ under the same license.
 
 Commercial use requires a separate paid commercial license from **Razestar**.
 No trademark rights are granted.
-

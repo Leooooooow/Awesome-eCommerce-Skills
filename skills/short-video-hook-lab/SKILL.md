@@ -5,6 +5,15 @@ description: Generate, test, and refine short-video hooks for TikTok, Reels, and
 
 # Short Video Hook Lab
 
+## Skill Card
+
+- **Category:** Creator Content
+- **Core problem:** How to improve first-3-second retention?
+- **Best for:** Hook iteration before recording
+- **Expected input:** Raw script or opening lines + target audience + product angle
+- **Expected output:** Ranked hook variants with rationale and filming complexity
+- **Creatop handoff:** Push winning hook into Creatop script composer
+
 ## Overview
 
 Generate high-retention openings that are specific, shootable, and platform-native.
@@ -71,4 +80,3 @@ under the same license.
 
 Commercial use requires a separate paid commercial license from **Razestar**.
 No trademark rights are granted.
-

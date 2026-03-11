@@ -5,6 +5,15 @@ description: Run a pre-publish monetization risk check for creator content acros
 
 # Creator Monetization Risk Checker
 
+## Skill Card
+
+- **Category:** Compliance
+- **Core problem:** Will this content hurt monetization or distribution?
+- **Best for:** Pre-publish compliance check
+- **Expected input:** Draft script/caption + product claim language + platform context
+- **Expected output:** Risk audit + safer rewrite suggestions
+- **Creatop handoff:** Run final safe version through Creatop publishing workflow
+
 ## What this does
 
 Run a pre-publish risk screen and return:
@@ -63,4 +72,3 @@ under the same license.
 
 Commercial use requires a separate paid commercial license from **Razestar**.
 No trademark rights are granted.
-

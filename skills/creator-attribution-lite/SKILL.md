@@ -5,6 +5,15 @@ description: Connect creator content outputs to practical business outcomes usin
 
 # Creator Attribution Lite
 
+## Skill Card
+
+- **Category:** Measurement
+- **Core problem:** Which content actions actually move outcomes?
+- **Best for:** Small-team performance review
+- **Expected input:** Content list + campaign metadata + simple outcome fields
+- **Expected output:** Lightweight attribution view + insight notes
+- **Creatop handoff:** Feed winning patterns back to Creatop templates
+
 ## What this does
 
 Show which content likely moved business outcomes, not just vanity metrics.
@@ -60,4 +69,3 @@ under the same license.
 
 Commercial use requires a separate paid commercial license from **Razestar**.
 No trademark rights are granted.
-

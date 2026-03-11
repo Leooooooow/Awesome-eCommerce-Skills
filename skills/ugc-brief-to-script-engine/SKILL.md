@@ -5,6 +5,15 @@ description: Convert a brand or campaign brief into creator-native UGC script pa
 
 # UGC Brief To Script Engine
 
+## Skill Card
+
+- **Category:** Creator Content
+- **Core problem:** How to turn a brand brief into creator-native scripts?
+- **Best for:** UGC production and agency workflows
+- **Expected input:** Brand brief, ICP, product facts, forbidden claims
+- **Expected output:** Script pack (angles, hooks, CTA, proof points)
+- **Creatop handoff:** Batch-generate and review scripts via Creatop
+
 ## What this does
 
 Turn a raw brand brief into creator-ready UGC scripts that can be filmed quickly and safely.
@@ -67,4 +76,3 @@ under the same license.
 
 Commercial use requires a separate paid commercial license from **Razestar**.
 No trademark rights are granted.
-

@@ -1,107 +1,90 @@
 # Creator Skills for Growth Creators (EN | 中文)
 
-A **continuously growing** skill collection for creator teams and AI agents.
+A **continuously growing** skills collection for creators, sellers, and AI operators.
 
-一个**持续增加**的创作者增长技能库（面向团队与 Agent）。
+一个**持续增长**的技能集合，用于创作者、电商卖家与 AI 运营团队。
 
----
-
-## Quick Navigation / 快速导航
-
-- [English](#english)
-- [中文](#中文)
-- [Build with me / 一起共建](#build-with-me--一起共建)
-- [License](#license--commercial-use)
+> Goal: turn real ecommerce workflows into installable skills, validate demand fast,
+> and continuously convert winning skills into Creatop-native tools.
 
 ---
 
-## English
+## Quick Start / 快速开始
 
-### What this repo is
+- Browse skills map: [`skills/INDEX.md`](skills/INDEX.md)
+- Programmatic registry: [`skills/manifest.json`](skills/manifest.json)
+- Propose new demand: `New skill / use-case proposal` issue template
+- Co-build with Razestar: https://qingjiu.me
 
-This is a living repository, not a one-time “Top 10 only” pack.
-It started with a validated foundation and will keep expanding.
+---
 
-Current focus areas:
-- creator growth workflows
-- outreach & conversion systems
-- monetization operations
-- attribution & optimization
+## For creators & sellers (结果导向)
 
-### Current published skills (rolling list, currently 10)
+Use these skills to quickly improve:
+- topic selection quality,
+- short-video hooks,
+- script compliance safety,
+- outreach conversion, and
+- weekly execution speed.
 
-| Skill | What it does |
+Recommended first 3:
+1. `creator-search-intent-radar`
+2. `short-video-hook-lab`
+3. `creator-monetization-risk-checker`
+
+## For developers (共建导向)
+
+This repo is built as a rolling, test-driven skill lab:
+- each skill has clear input/output contracts,
+- demand capture is structured via issue forms,
+- winning patterns are fed into Creatop product workflows.
+
+If you want to co-build infrastructure, tooling, or production workflows, welcome:
+👉 https://qingjiu.me
+
+---
+
+## Current published skills (rolling list, currently 10)
+
+| Skill | Core problem solved |
 |---|---|
-| `creator-search-intent-radar` | Turn search/trend signals into prioritized content opportunities. |
-| `short-video-hook-lab` | Generate and rank stronger hooks for short videos. |
-| `creator-deal-ops` | Manage sponsor deal workflow, scope, and revisions. |
-| `cross-platform-recut-planner` | Recut one idea across TikTok / Reels / Shorts. |
-| `creator-monetization-risk-checker` | Pre-publish risk checks for monetization and distribution. |
-| `ugc-brief-to-script-engine` | Convert brand briefs into creator-native script packs. |
-| `creator-attribution-lite` | Connect content actions with lightweight outcome tracking. |
-| `batch-content-sprint-os` | Run weekly content sprints with realistic capacity. |
-| `creator-proof-portfolio-builder` | Build proof packs for brand outreach. |
-| `comment-to-content-recycler` | Turn comments/DMs into script-ready content backlog. |
+| `creator-search-intent-radar` | What to post next based on demand signals |
+| `short-video-hook-lab` | How to improve first-3-second retention |
+| `creator-deal-ops` | How to run sponsor deals with less friction |
+| `cross-platform-recut-planner` | How to repurpose one idea across platforms |
+| `creator-monetization-risk-checker` | How to reduce monetization/distribution risk |
+| `ugc-brief-to-script-engine` | How to turn briefs into creator-native scripts |
+| `creator-attribution-lite` | How to connect content actions to outcomes |
+| `batch-content-sprint-os` | How to ship weekly without burnout |
+| `creator-proof-portfolio-builder` | How to package proof for outreach |
+| `comment-to-content-recycler` | How to convert comments into content pipeline |
 
-### Repo structure
+---
+
+## Repository structure
 
 ```text
-skills/      # skill folders (SKILL.md + references)
-research/    # demand map, roadmap, catalog, validation & optimization notes
-tests/smoke/ # per-skill smoke-test outputs
+skills/               # SKILL.md folders + INDEX + manifest
+research/             # validation and optimization reports
+tests/smoke/          # smoke-test outputs
+.github/ISSUE_TEMPLATE/ # structured demand intake templates
 ```
 
-### Validation
+## Validation
 
 - Baseline report: `research/creator-skills-validation-report-2026-03-11.md`
 - Per-skill artifacts: `tests/smoke/*.md`
 
 ---
 
-## 中文
-
-### 这个仓库是什么
-
-这是一个会持续演进的技能仓库，不是“只做 10 个就停”。
-目前以已验证的技能为基础，后续会持续增加：
-
-- 增长获客工作流
-- 外联与转化流程
-- 变现运营能力
-- 归因与优化机制
-
-### 当前已发布技能（滚动更新，当前 10 个）
-
-| Skill | 用途（中文） |
-|---|---|
-| `creator-search-intent-radar` | 把搜索/趋势信号转成可执行选题优先级。 |
-| `short-video-hook-lab` | 生成并筛选短视频高质量开头。 |
-| `creator-deal-ops` | 管理品牌合作流程、范围与修订。 |
-| `cross-platform-recut-planner` | 同一内容跨 TikTok / Reels / Shorts 重剪。 |
-| `creator-monetization-risk-checker` | 发布前做变现与分发风险检查。 |
-| `ugc-brief-to-script-engine` | 把品牌 brief 转成创作者友好的脚本包。 |
-| `creator-attribution-lite` | 轻量追踪内容动作与业务结果。 |
-| `batch-content-sprint-os` | 按周规划内容冲刺，控制产能与节奏。 |
-| `creator-proof-portfolio-builder` | 生成品牌合作所需的成果证明页。 |
-| `comment-to-content-recycler` | 把评论/私信沉淀成可执行内容池。 |
-
----
-
 ## Build with me / 一起共建
 
-Hi, I’m Leroy at **Razestar**.
-I’m building AI-native marketing systems for creators.
+Hi, I’m **Leroy (Razestar)**. I’m building AI-native growth systems for ecommerce creators.
 
-你好，我是 **Razestar**的清酒，在做面向创作者的 AI 营销系统。
+你好，我是 **Leroy（Razestar）**，在做面向电商创作者的 AI 增长系统。
 
-If you want to co-build new skills, improve existing workflows, or propose a use case, welcome to connect:
-
-如果你想一起共建技能、补充工作流、共创案例，欢迎联系：
-
-👉 **https://qingjiu.me**
-
-Contributions are welcome via issues / PRs.
-欢迎通过 issue / PR 一起完善。
+If you want to co-build new skills, propose high-value workflows, or collaborate:
+👉 https://qingjiu.me
 
 ---
 
@@ -112,11 +95,8 @@ Copyright (c) 2026 **Razestar**.
 This bundle is licensed for public community use under
 **CC BY-NC-SA 4.0 (Attribution-NonCommercial-ShareAlike)**.
 
-- Non-commercial use: allowed (with attribution to Razestar).
-- Adaptations: allowed under the same license.
-- Commercial use: requires a separate paid commercial license from Razestar.
+- Non-commercial use: allowed (with attribution to Razestar)
+- Adaptations: allowed under same license
+- Commercial use: requires separate paid commercial license
 
-Attribution should preserve author credit to **Razestar** and indicate if
-changes were made.
-
-See `LICENSE`, `NOTICE`, `COMMERCIAL.md`, and `TRADEMARKS.md` for details.
+See `LICENSE`, `NOTICE`, `COMMERCIAL.md`, `TRADEMARKS.md`.

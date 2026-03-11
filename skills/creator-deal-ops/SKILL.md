@@ -5,6 +5,15 @@ description: Run creator brand-deal operations from inbound brief to delivery an
 
 # Creator Deal Ops
 
+## Skill Card
+
+- **Category:** Operations
+- **Core problem:** How to run creator sponsorships without chaos?
+- **Best for:** Sponsor collaboration operations
+- **Expected input:** Brand brief, deliverables, timeline, revision/payment rules
+- **Expected output:** Deal plan, risk flags, revision/payment checklist
+- **Creatop handoff:** Export checklist into team SOP / Notion / Feishu
+
 ## Overview
 
 Run brand deals with clear scope, protected margin, and predictable payments.
@@ -83,4 +92,3 @@ under the same license.
 
 Commercial use requires a separate paid commercial license from **Razestar**.
 No trademark rights are granted.
-

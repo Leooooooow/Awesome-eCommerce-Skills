@@ -5,6 +5,15 @@ description: Convert TikTok/YouTube/Instagram search and trend signals into a pr
 
 # Creator Search Intent Radar
 
+## Skill Card
+
+- **Category:** Market Intelligence
+- **Core problem:** What should we post next with real demand signals?
+- **Best for:** Weekly planning and topic prioritization
+- **Expected input:** TikTok/YouTube/Instagram trend snippets, search hints, comments/DM FAQs
+- **Expected output:** Ranked topic backlog + platform fit + hook directions + CTA
+- **Creatop handoff:** Send top 3 topics into Creatop script workflow
+
 ## Overview
 
 Turn noisy trend inputs into **ranked, publishable decisions**.
@@ -91,4 +100,3 @@ under the same license.
 
 Commercial use requires a separate paid commercial license from **Razestar**.
 No trademark rights are granted.
-

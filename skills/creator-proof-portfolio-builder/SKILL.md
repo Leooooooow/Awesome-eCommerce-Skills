@@ -5,6 +5,15 @@ description: Build concise creator proof packs for brand outreach using real per
 
 # Creator Proof Portfolio Builder
 
+## Skill Card
+
+- **Category:** Conversion
+- **Core problem:** How to present creator proof to close better deals?
+- **Best for:** Creator outbound and partnership conversion
+- **Expected input:** Results, examples, testimonials, benchmark data
+- **Expected output:** One-page proof pack for outreach
+- **Creatop handoff:** Attach proof pack in outreach sequence
+
 ## What this does
 
 Turn scattered creator data into a one-page proof pack brands can trust.
@@ -68,4 +77,3 @@ under the same license.
 
 Commercial use requires a separate paid commercial license from **Razestar**.
 No trademark rights are granted.
-

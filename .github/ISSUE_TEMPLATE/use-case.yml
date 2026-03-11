@@ -1,0 +1,53 @@
+name: New skill / use-case proposal
+description: Propose a real workflow problem that should become a new skill
+title: "[Use Case] <short title>"
+labels: ["use-case", "triage"]
+body:
+  - type: dropdown
+    id: role
+    attributes:
+      label: Your role
+      options:
+        - Creator
+        - Seller
+        - Affiliate
+        - Agency / Operator
+        - Developer
+    validations:
+      required: true
+
+  - type: textarea
+    id: pain
+    attributes:
+      label: Workflow pain point
+      description: Describe the exact task that is slow, manual, or error-prone.
+      placeholder: "I need to turn 200 comments into content angles every week..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: input_contract
+    attributes:
+      label: Expected input
+      description: What should the skill accept?
+      placeholder: URLs, transcripts, product bullets, comments, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: output_contract
+    attributes:
+      label: Expected output
+      description: What should the skill return so you can act immediately?
+      placeholder: prioritized backlog, script pack, compliance audit, etc.
+    validations:
+      required: true
+
+  - type: input
+    id: success_metric
+    attributes:
+      label: Success metric
+      description: What metric should improve if this skill works?
+      placeholder: reply rate, install conversion, retention, output speed...
+    validations:
+      required: true

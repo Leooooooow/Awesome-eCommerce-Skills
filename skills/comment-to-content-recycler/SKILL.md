@@ -5,6 +5,15 @@ description: Transform comments, DMs, and FAQ threads into prioritized content i
 
 # Comment To Content Recycler
 
+## Skill Card
+
+- **Category:** Market Intelligence
+- **Core problem:** How to convert comments/DMs into content pipeline?
+- **Best for:** Always-on content ideation
+- **Expected input:** Comments, DMs, objections, FAQ snippets
+- **Expected output:** Intent clusters + prioritized content backlog
+- **Creatop handoff:** Send high-priority clusters into Creatop script queue
+
 ## What this does
 
 Convert audience questions into ranked, script-ready content topics.
@@ -68,4 +77,3 @@ under the same license.
 
 Commercial use requires a separate paid commercial license from **Razestar**.
 No trademark rights are granted.
-
