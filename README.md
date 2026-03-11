@@ -1,4 +1,4 @@
-# Creator Skills Top 10 (TikTok / YouTube / Instagram)
+# Creator Skills (TikTok / YouTube / Instagram)
 
 A practical skill bundle for creator teams and AI agents.
 
