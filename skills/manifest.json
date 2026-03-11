@@ -122,6 +122,126 @@
       "status": "stable",
       "stage": "discovery",
       "priority": 10
+    },
+    {
+      "slug": "tiktok-shop-creator-fit-scorer",
+      "category": "Creator Matching",
+      "problem": "Which creators are most likely to convert for a specific product?",
+      "input": "Product positioning, target ICP, creator profile links/metrics, budget constraints",
+      "output": "Ranked creator shortlist with fit scores, outreach angle, and risk flags",
+      "best_for": "Creator sourcing before outreach",
+      "handoff": "Use top-ranked creators in outreach sequence and brief generation",
+      "status": "beta",
+      "stage": "acquisition",
+      "priority": 11
+    },
+    {
+      "slug": "review-defect-miner",
+      "category": "Voice of Customer",
+      "problem": "What product defects and dissatisfaction patterns are hidden in reviews/comments?",
+      "input": "Low-star reviews, comments, support tickets, return notes",
+      "output": "Defect clusters by severity, frequency, and fix priority with evidence snippets",
+      "best_for": "Product and content teams diagnosing quality gaps",
+      "handoff": "Convert top defect clusters into product fixes + expectation-setting scripts",
+      "status": "beta",
+      "stage": "insight",
+      "priority": 12
+    },
+    {
+      "slug": "listing-gap-audit",
+      "category": "PDP Optimization",
+      "problem": "How does our listing underperform compared with competitors?",
+      "input": "Your listing text + competitor listings + product constraints",
+      "output": "Gap report across title, bullets, proof, offer framing, and action priorities",
+      "best_for": "Listing rewrite prioritization",
+      "handoff": "Send priority rewrites into script/copy generation workflows",
+      "status": "beta",
+      "stage": "conversion",
+      "priority": 13
+    },
+    {
+      "slug": "shopify-tracking-auditor",
+      "category": "Measurement",
+      "problem": "Where is tracking broken across ad click to purchase flow?",
+      "input": "Event samples, pixel/CAPI config notes, UTM examples, checkout flow map",
+      "output": "Tracking gap audit with severity, suspected cause, and fix checklist",
+      "best_for": "Performance teams debugging attribution leaks",
+      "handoff": "Apply fixes then rerun attribution review with creator-attribution-lite",
+      "status": "beta",
+      "stage": "measurement",
+      "priority": 14
+    },
+    {
+      "slug": "price-gap-monitor",
+      "category": "Competitive Intel",
+      "problem": "When should we react to competitor price/promo changes without destroying margin?",
+      "input": "Your price/margin constraints + competitor price snapshots + promo context",
+      "output": "Price-gap alerts with recommended actions under margin guardrails",
+      "best_for": "Weekly price and promo decisions",
+      "handoff": "Send accepted actions to promo calendar and listing updates",
+      "status": "beta",
+      "stage": "pricing",
+      "priority": 15
+    },
+    {
+      "slug": "refund-reason-cluster",
+      "category": "Post-purchase Analytics",
+      "problem": "What repeatable reasons are driving refunds and returns?",
+      "input": "Refund logs, return reason text, support transcripts, order metadata",
+      "output": "Reason clusters with root-cause hypotheses and prevention actions",
+      "best_for": "Reducing avoidable refunds and preserving margins",
+      "handoff": "Feed top reasons into product fixes + pre-purchase expectation copy",
+      "status": "beta",
+      "stage": "retention",
+      "priority": 16
+    },
+    {
+      "slug": "ugc-hook-analyzer",
+      "category": "Creator Content",
+      "problem": "Why do some UGC openings retain while others fail in first seconds?",
+      "input": "UGC script/video transcript + target audience + product angle",
+      "output": "Hook diagnosis + improved variants + execution notes",
+      "best_for": "Pre-shoot UGC optimization",
+      "handoff": "Use winning hooks in short-video-hook-lab and script packs",
+      "status": "beta",
+      "stage": "creation",
+      "priority": 17
+    },
+    {
+      "slug": "checkout-friction-audit",
+      "category": "Conversion",
+      "problem": "Which checkout steps are leaking intent and killing purchase completion?",
+      "input": "Checkout flow notes, abandonment signals, user complaints, policy constraints",
+      "output": "Friction map with severity, likely cause, and fix priority",
+      "best_for": "Conversion rate recovery projects",
+      "handoff": "Push fixes into sprint board and rerun after implementation",
+      "status": "beta",
+      "stage": "conversion",
+      "priority": 18
+    },
+    {
+      "slug": "promo-calendar-optimizer",
+      "category": "Operations",
+      "problem": "How should we schedule promos to maximize conversion without operational overload?",
+      "input": "Campaign goals, inventory limits, creator slots, paid budget windows",
+      "output": "Weekly promo calendar with channel mix, owner tasks, and risk notes",
+      "best_for": "Cross-channel promo planning",
+      "handoff": "Use outputs in batch-content-sprint-os and deal ops execution",
+      "status": "beta",
+      "stage": "operations",
+      "priority": 19
+    },
+    {
+      "slug": "creator-outreach-sequence-lab",
+      "category": "Creator Acquisition",
+      "problem": "How to improve creator outreach reply and conversion rates?",
+      "input": "Creator segments, offer structure, proof assets, channel constraints",
+      "output": "Multi-step outreach sequence with personalization hooks and follow-up logic",
+      "best_for": "Scaling creator outreach while keeping quality",
+      "handoff": "Run sequence with creator-fit scorer shortlist and track responses",
+      "status": "beta",
+      "stage": "acquisition",
+      "priority": 20
     }
   ]
 }

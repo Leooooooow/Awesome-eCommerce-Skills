@@ -80,6 +80,21 @@ This repo is built as a rolling, test-driven skill lab:
 | `creator-proof-portfolio-builder` | How to package proof for outreach |
 | `comment-to-content-recycler` | How to convert comments into content pipeline |
 
+### Next demand batch (staged release)
+
+The following 10 skills are now in staged release (GitHub first, ClawHub in waves):
+
+- `tiktok-shop-creator-fit-scorer`
+- `review-defect-miner`
+- `listing-gap-audit`
+- `shopify-tracking-auditor`
+- `price-gap-monitor`
+- `refund-reason-cluster`
+- `ugc-hook-analyzer`
+- `checkout-friction-audit`
+- `promo-calendar-optimizer`
+- `creator-outreach-sequence-lab`
+
 ### Repository structure
 
 ```text
@@ -168,6 +183,21 @@ Output: <输出格式>
 | `batch-content-sprint-os` | 如何周更不断更且不过载 |
 | `creator-proof-portfolio-builder` | 如何整理案例证明提升合作转化 |
 | `comment-to-content-recycler` | 如何把评论/私信变成选题池 |
+
+### 下一批需求技能（分批发布）
+
+以下 10 个技能已进入分批发布（先 GitHub，后 ClawHub 分波次）：
+
+- `tiktok-shop-creator-fit-scorer`
+- `review-defect-miner`
+- `listing-gap-audit`
+- `shopify-tracking-auditor`
+- `price-gap-monitor`
+- `refund-reason-cluster`
+- `ugc-hook-analyzer`
+- `checkout-friction-audit`
+- `promo-calendar-optimizer`
+- `creator-outreach-sequence-lab`
 
 ### 仓库结构
 
