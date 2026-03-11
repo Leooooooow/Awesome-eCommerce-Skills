@@ -22,6 +22,28 @@ and continuously convert winning skills into Creatop-native tools.
 - Propose new demand: `New skill / use-case proposal` issue template
 - Co-build link: https://qingjiu.me
 
+### How to get more OpenClaw / agent calls
+
+Important: automatic skill selection is primarily driven by each skill’s
+`SKILL.md` frontmatter (`name` + `description`), not repository README alone.
+
+Use this invocation format when calling from OpenClaw or other agents:
+
+```text
+Use <skill-slug> to <goal>.
+Input: <data/source>
+Constraints: <channel/risk/time>
+Output: <format>
+```
+
+Copy-ready examples:
+
+1. `Use creator-search-intent-radar to rank this week’s topics. Input: these 30 comments + TikTok trend notes. Output: top 10 topics with hooks and CTA.`
+2. `Use short-video-hook-lab to improve first 3 seconds. Input: this draft script. Output: 5 ranked hooks with rationale.`
+3. `Use creator-monetization-risk-checker to audit this script. Input: full script text. Output: risk flags + safer rewrites.`
+4. `Use comment-to-content-recycler to convert audience feedback into backlog. Input: these comments/DM snippets. Output: intent clusters + priority list.`
+5. `Use ugc-brief-to-script-engine to convert this sponsor brief into creator-native scripts. Output: 3 angle variants with shot list.`
+
 ### For creators & sellers
 
 Use these skills to quickly improve:
@@ -88,6 +110,28 @@ tests/smoke/          # smoke-test outputs
 - 程序化清单：[`skills/manifest.json`](skills/manifest.json)
 - 提交需求：使用 `New skill / use-case proposal` 模板
 - 共建入口：https://qingjiu.me
+
+### 如何获得更多 OpenClaw / 其它 Agent 调用
+
+关键点：Agent 的自动技能选择，主要看每个技能的 `SKILL.md` 前置元数据
+（`name` + `description`），README 主要用于人类理解和转化。
+
+建议统一使用下面这种调用格式：
+
+```text
+Use <skill-slug> to <目标>。
+Input: <输入数据/来源>
+Constraints: <限制条件>
+Output: <输出格式>
+```
+
+可直接复制的示例：
+
+1. `Use creator-search-intent-radar to rank this week’s topics. Input: 30条评论+趋势摘要. Output: Top10选题+hooks+CTA.`
+2. `Use short-video-hook-lab to improve first 3 seconds. Input: 当前脚本. Output: 5个排序后的开头方案+原因.`
+3. `Use creator-monetization-risk-checker to audit this script. Input: 完整脚本. Output: 风险点+安全改写.`
+4. `Use comment-to-content-recycler to convert comments into backlog. Input: 评论和私信片段. Output: 意图聚类+优先级内容池.`
+5. `Use ugc-brief-to-script-engine to convert sponsor brief to scripts. Output: 3个角度+分镜shot list.`
 
 ### 给创作者与卖家
 
