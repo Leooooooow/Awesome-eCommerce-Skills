@@ -1,23 +1,20 @@
 # Creator Skills (TikTok / YouTube / Instagram)
 
-A practical skill bundle for creator teams and AI agents.
+A practical, **continuously growing** skill collection for creator teams and AI agents.
 
 - **For humans:** ship better content faster, reduce monetization risk, and improve sponsor outcomes.
 - **For agents:** trigger-ready skills with clear task boundaries and reusable workflows.
 
-## Why this bundle
+## Positioning
 
-Most creator teams don’t need another generic “content ideas” tool. They need an operating system from:
+This is a living repository, not a one-off bundle.
 
-1. finding real audience demand,
-2. writing stronger hooks,
-3. turning briefs into deliverables,
-4. protecting monetization,
-5. tracking what actually drives revenue.
+It started from a validated “Top 10” foundation, and will keep expanding with:
+- new growth and monetization workflows,
+- stronger distribution and outreach playbooks,
+- better measurement and attribution patterns.
 
-This repo packages exactly that.
-
-## Included skills (10)
+## Current published skills (rolling list, currently 10)
 
 1. **creator-search-intent-radar**  
    Find high-intent topics and build a weekly content backlog.
@@ -53,13 +50,16 @@ This repo packages exactly that.
 
 ## 中文说明（简版）
 
-这是给创作者和 Agent 用的一套 10 个技能：
+这个仓库不是“只做 10 个”后就停止，而是会**持续增加**技能。
 
-- 从“选题”到“脚本”到“发布与变现”全链路覆盖
-- 重点解决 3 件事：**增长效率、变现稳定性、可复用流程**
-- 适合 5K–50K 粉丝成长型创作者团队
+当前是从 10 个核心技能起步，后续会不断扩展到更多场景：
+- 内容增长
+- 外联转化
+- 达人合作
+- 归因复盘
+- 运营自动化
 
-如果你经常卡在“发什么、怎么发、怎么变现更稳”，这套技能就是为这个场景做的。
+适合 5K–50K 粉丝成长型创作者团队，也适合做 creator growth 的 Agent 工作流。
 
 ---
 
@@ -67,19 +67,20 @@ This repo packages exactly that.
 
 ```text
 skills/      # skill folders (SKILL.md + references)
-research/    # demand map, roadmap, plain-language catalog, validation report
-tests/smoke/ # per-skill smoke test outputs (10/10)
+research/    # demand map, roadmap, catalog, validation report, optimization notes
+tests/smoke/ # per-skill smoke test outputs
 ```
 
 ## Validation
 
-- Smoke-test report: `research/creator-skills-validation-report-2026-03-11.md`
+- Latest baseline report: `research/creator-skills-validation-report-2026-03-11.md`
 - Per-skill artifacts: `tests/smoke/*.md`
 
 ## Notes
 
-- These skills are workflow-first and designed for iterative improvement.
-- Keep language native and human in final outputs; avoid template-sounding copy.
+- This is a workflow-first collection designed for iterative growth.
+- New skills will be added continuously; this README reflects the current snapshot.
+
 ## License & commercial use
 
 Copyright (c) 2026 **Razestar**.
@@ -95,4 +96,3 @@ Attribution should preserve author credit to **Razestar** and indicate if
 changes were made.
 
 See `LICENSE`, `NOTICE`, `COMMERCIAL.md`, and `TRADEMARKS.md` for details.
-
