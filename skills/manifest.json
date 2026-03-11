@@ -242,6 +242,18 @@
       "status": "beta",
       "stage": "acquisition",
       "priority": 20
+    },
+    {
+      "slug": "tiktok-live-objection-handler",
+      "category": "Live Commerce Conversion",
+      "problem": "How to handle live objections without killing trust or conversion?",
+      "input": "Live objections, product facts, offer terms, proof snippets, risk constraints",
+      "output": "Objection diagnosis + reply pack + escalation ladder + close prompts",
+      "best_for": "TikTok live selling sessions and moderator playbooks",
+      "handoff": "Save winning objection scripts into Creatop live SOP templates",
+      "status": "beta",
+      "stage": "conversion",
+      "priority": 21
     }
   ]
 }

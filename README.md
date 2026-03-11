@@ -95,6 +95,8 @@ The following 10 skills are now in staged release (GitHub first, ClawHub in wave
 - `promo-calendar-optimizer`
 - `creator-outreach-sequence-lab`
 
+- `tiktok-live-objection-handler`
+
 ### Repository structure
 
 ```text
