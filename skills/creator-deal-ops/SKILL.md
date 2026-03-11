@@ -7,64 +7,69 @@ description: Run creator brand-deal operations from inbound brief to delivery an
 
 ## Overview
 
-Use this skill to prevent deal chaos: unclear deliverables, endless revisions, and delayed payments.  
-Treat creator deals like lightweight operations, not ad-hoc chat threads.
+Run brand deals with clear scope, protected margin, and predictable payments.
 
 ## Workflow
 
 ### 1) Intake and qualification
 
-For each opportunity, capture:
+Capture:
+- brand/client
+- campaign objective
+- deliverables
+- timeline
+- usage rights + exclusivity
+- budget/rate range
 
-- Brand/client
-- Campaign objective
-- Required deliverables
-- Deadline and launch window
-- Usage rights and exclusivity
-- Budget or rate range
-
-Reject or flag deals with missing scope, unrealistic turnaround, or unclear usage rights.
+Flag incomplete briefs immediately.
 
 ### 2) Scope into delivery plan
 
-Convert brief into a clear plan:
+Define in writing:
+- exact deliverables (count/format)
+- revision limit
+- acceptance criteria
+- milestone calendar
 
-- Deliverable list (exact count + format)
-- Revision limit (e.g., 1–2 rounds)
-- Acceptance criteria
-- Timeline by milestone
+### 3) Risk and margin gate
 
-### 3) Risk and margin check
+Evaluate:
+- scope creep risk
+- timeline risk
+- compliance risk
+- margin sanity
+- payment risk
 
-Check before acceptance:
+Decision output:
+- **Accept**
+- **Negotiate**
+- **Decline**
 
-- Scope creep risk
-- Timeline risk
-- Compliance risk
-- Margin sanity (estimated effort vs fee)
-- Payment terms risk (net days, split, upfront)
+Non-negotiables (default redlines):
+- unlimited revisions = not acceptable
+- unclear usage rights = not acceptable
+- missing due date/payment terms = not acceptable
 
 ### 4) Payment operations
 
 Track:
+- invoice sent date
+- due date
+- status
+- next follow-up action
 
-- Invoice sent date
-- Due date
-- Payment status
-- Follow-up cadence
+If overdue, send concise reminders with delivery proof.
 
-If overdue, produce concise follow-up messages with evidence of delivered milestones.
+## Output bundle
 
-## Output templates
+Return 4 blocks:
+1. deal scorecard (accept/negotiate/decline)
+2. redline terms list
+3. delivery checklist
+4. payment tracker row + follow-up cadence
 
-Provide these three outputs when requested:
+## Quality rules
 
-1. **Deal scorecard** (accept / negotiate / decline)
-2. **Delivery checklist** (who does what by when)
-3. **Payment tracker row** (status + next action)
-
-## Quality bar
-
-- Be explicit about rights, revisions, and deadlines.
-- Keep language professional and short.
-- Preserve relationship tone while protecting creator margin.
+- Protect creator downside while preserving partner tone.
+- Be explicit on rights, revisions, and payment terms.
+- Prefer short, actionable language over legal fluff.

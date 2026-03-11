@@ -5,9 +5,9 @@ description: Convert a brand or campaign brief into creator-native UGC script pa
 
 # UGC Brief To Script Engine
 
-## What this does (plain language)
+## What this does
 
-Take a raw brand brief and turn it into **usable UGC scripts** that creators can record quickly.
+Turn a raw brand brief into creator-ready UGC scripts that can be filmed quickly and safely.
 
 ## Workflow
 
@@ -15,10 +15,13 @@ Take a raw brand brief and turn it into **usable UGC scripts** that creators can
 
 Extract:
 - product and audience
-- key benefit claims
-- mandatory points and banned claims
+- key claims
+- mandatory points
+- banned claims
 - offer/CTA
 - visual constraints
+
+If brief gaps exist, mark assumptions explicitly.
 
 ### 2) Build script pack
 
@@ -30,25 +33,27 @@ Generate 3 variants:
 Each variant includes:
 - hook line
 - scene-by-scene shot notes
-- voiceover/script lines
+- script lines
 - CTA close
 
 ### 3) Add revision-safe options
 
 Provide:
-- softer claim version
-- shorter 15s cut
+- softer-claim version
+- 15s cutdown
 - stronger proof-first cut
 
-### 4) Output handoff
+### 4) Add compliance handoff
 
-Return:
-- final script pack
-- filming checklist
+Include:
+- claim safety notes
+- mandatory proof shots (if any)
+- quick filming checklist
 - approval-ready summary for brand/client
 
 ## Quality rules
 
-- Keep wording human, not ad-jargon heavy.
-- Respect brief constraints and compliance notes.
+- Keep wording human and creator-native.
+- Respect all mandatory and banned claim constraints.
+- Do not invent scientific/medical claims.
 - Prioritize filmability for small creator teams.

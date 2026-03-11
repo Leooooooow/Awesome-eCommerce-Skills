@@ -5,9 +5,9 @@ description: Build concise creator proof packs for brand outreach using real per
 
 # Creator Proof Portfolio Builder
 
-## What this does (plain language)
+## What this does
 
-Turn scattered creator metrics into a clean proof pack brands can trust.
+Turn scattered creator data into a one-page proof pack brands can trust.
 
 ## Workflow
 
@@ -17,27 +17,36 @@ Collect:
 - top content examples
 - performance snapshots
 - audience profile
-- brand/category fit
-- testimonial or past campaign notes
+- niche/category fit
+- testimonials or campaign notes
 
-### 2) Build one-page proof structure
+### 2) Verify evidence integrity
 
-Output sections:
+For each metric, include:
+- source (platform screenshot/export/report)
+- timeframe
+- attribution confidence (high/medium/low)
+
+If hard data is missing, use placeholders and clearly label as pending.
+
+### 3) Build one-page structure
+
+Output:
 - positioning headline
 - audience fit
 - best performance proof
 - collaboration formats
-- contact / next step
+- contact/next step
 
-### 3) Create case snapshots
+### 4) Create case snapshots
 
-For each selected case:
+For each case:
 - context
-- content approach
-- measurable result
-- what this means for future campaigns
+- approach
+- measured result
+- future-campaign takeaway
 
-### 4) Produce outreach-ready copy
+### 5) Produce outreach copy
 
 Return:
 - short pitch paragraph
@@ -46,6 +55,6 @@ Return:
 
 ## Quality rules
 
-- Use evidence, not inflated claims.
-- Keep visuals and copy skim-friendly.
-- Emphasize category fit and execution reliability.
+- Do not fabricate metrics.
+- Use concise, evidence-led wording.
+- Emphasize niche fit and execution reliability.

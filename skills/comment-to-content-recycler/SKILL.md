@@ -5,49 +5,56 @@ description: Transform comments, DMs, and FAQ threads into prioritized content i
 
 # Comment To Content Recycler
 
-## What this does (plain language)
+## What this does
 
-Mine audience questions and convert them into ready-to-produce content.
+Convert audience questions into ranked, script-ready content topics.
 
 ## Workflow
 
-### 1) Ingest audience input
+### 1) Ingest and clean input
 
-Collect comment/DM/FAQ text from recent windows (e.g., last 7–30 days).
+Collect recent comments/DM/FAQ items (e.g., 7–30 days).
+
+Normalize by:
+- removing duplicates
+- merging near-identical phrasing
+- preserving representative audience wording
 
 ### 2) Cluster by intent
 
-Group into buckets:
+Group into:
 - how-to
 - comparison
 - troubleshooting
 - buying concerns
 - objections/myths
 
-### 3) Prioritize by demand
+### 3) Prioritize clusters
 
-Score each cluster by:
+Score each cluster:
 - frequency
 - urgency
 - monetization relevance
 - ease of production
 
+Rank clusters before writing outputs.
+
 ### 4) Generate content outputs
 
-For top clusters, produce:
-- title/topic line
-- hook options (3)
+For top clusters, provide:
+- topic/title
+- 3 hook options
 - short script angle
-- CTA tied to the original question
+- CTA tied to audience language
 
-### 5) Close feedback loop
+### 5) Close the loop
 
-Add recommendation:
+Add:
 - which comments to reply first
-- what follow-up question to ask audience
+- one follow-up question to collect better demand signals
 
 ## Quality rules
 
-- Preserve audience language where useful.
-- Avoid generic idea lists disconnected from real comments.
-- Prioritize repeat questions with commercial relevance.
+- Keep audience language intact where useful.
+- Avoid generic ideas disconnected from real comments.
+- Prioritize repeated pains with commercial relevance.

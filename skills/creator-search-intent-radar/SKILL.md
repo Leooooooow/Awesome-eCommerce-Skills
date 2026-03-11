@@ -7,26 +7,35 @@ description: Convert TikTok/YouTube/Instagram search and trend signals into a pr
 
 ## Overview
 
-Use this skill to turn messy trend inputs into **publishable topic decisions**.  
-Focus on demand signals first, then map each signal to a clear content angle.
+Turn noisy trend inputs into **ranked, publishable decisions**.
+
+Priority order:
+1) demand signal quality
+2) audience fit
+3) monetization fit
+4) execution speed
 
 ## Workflow
 
 ### 1) Collect demand signals
 
-Gather 10–30 candidate signals from a mix of:
+Gather 10–30 candidate signals from:
+- TikTok search/trend surfaces
+- YouTube search/autosuggest
+- Instagram/Reels momentum
+- comments/DM FAQs/community threads
 
-- TikTok search and trend surfaces (e.g., Creator Search Insights/newsroom trends)
-- YouTube search/autosuggest/topic momentum
-- Instagram/Reels topic momentum and recurring audience questions
-- Community signals (comments, FAQs, recurring pain points)
+Record provenance for each signal:
+- `source_type` (official/community/internal)
+- `source_link` (if available)
+- `captured_at`
+- `confidence` (high/medium/low)
 
-Prefer recent signals (24–72h) unless the user asks for evergreen topics.
+If live endpoints are unavailable, run **fallback mode** using recent internal patterns and clearly label output as `mode: fallback`.
 
-### 2) Normalize into one backlog
+### 2) Normalize and dedupe backlog
 
-For each candidate topic, record:
-
+For each topic, standardize:
 - `topic`
 - `platform_fit` (TikTok / YouTube / Instagram)
 - `intent_type` (learn / compare / buy / troubleshoot / inspiration)
@@ -35,25 +44,28 @@ For each candidate topic, record:
 - `monetization_fit` (1–5)
 - `difficulty` (1–5)
 
+Merge near-duplicate topics before scoring.
+
 ### 3) Score and rank
 
-Use this quick score:
+Use:
 
-`priority_score = (audience_fit * 0.35) + (freshness * 0.25) + (monetization_fit * 0.25) + (execution_speed * 0.15)`
+`priority_score = (audience_fit * 0.35) + (freshness_score * 0.25) + (monetization_fit * 0.25) + (execution_speed * 0.15)`
 
-Convert text labels to numeric values when needed (e.g., hot=5, warm=3, evergreen=2).
+Mapping:
+- `freshness_score`: hot=5, warm=3, evergreen=2
+- `execution_speed = 6 - difficulty`
 
-### 4) Output weekly plan
+### 4) Generate decision output
 
 Return:
+1. Top 10 ranked topics
+2. Per topic: 1 content angle + 3 hook directions + CTA
+3. 7-day lightweight schedule
 
-1. **Top 10 ranked topics**
-2. For each topic, one **content angle** and three **hook directions**
-3. A practical **7-day schedule** (lightweight, not over-optimized)
+Include `data_confidence` for each topic (high/medium/low).
 
 ## Output format
-
-Use this compact block per topic:
 
 - Topic:
 - Why now:
@@ -62,9 +74,10 @@ Use this compact block per topic:
 - Angle:
 - Hook directions (3):
 - CTA:
+- Confidence:
 
-## Quality bar
+## Quality and safety rules
 
-- Avoid generic trends without audience fit.
-- Prefer topics with clear user intent and concrete use cases.
-- Keep recommendations executable by a small creator team.
+- Do not present synthetic/internal signals as live external trends.
+- Avoid generic topics without clear buyer intent.
+- Keep recommendations executable by small creator teams.

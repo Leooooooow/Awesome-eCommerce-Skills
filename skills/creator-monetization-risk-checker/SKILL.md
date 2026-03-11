@@ -5,14 +5,12 @@ description: Run a pre-publish monetization risk check for creator content acros
 
 # Creator Monetization Risk Checker
 
-## What this does (plain language)
+## What this does
 
-Check content before posting so creators avoid avoidable monetization and distribution losses.
-
-Output a simple decision:
+Run a pre-publish risk screen and return:
 - **Green**: publish
 - **Yellow**: revise first
-- **Red**: major risk, rework
+- **Red**: high risk, rework
 
 ## Workflow
 
@@ -20,34 +18,38 @@ Output a simple decision:
 
 Review:
 - script text
-- hook/thumbnail/title claims
-- sensitive topics and wording
-- reused vs original content signals
+- title/hook/thumbnail claims
+- sensitive wording
+- originality/reuse signals
 
-### 2) Score risk categories
+### 2) Score risk categories (1–5)
 
-Score 1–5 for:
-- policy/advertiser safety risk
-- originality/reuse risk
-- misleading-claim risk
-- brand suitability risk
+- policy / advertiser safety
+- originality / reuse
+- misleading claim risk
+- brand suitability
 
-### 3) Produce mitigation edits
+### 3) Decide verdict
 
-For each yellow/red item, provide:
+Rule of thumb:
+- Green: all categories <= 2
+- Yellow: any category = 3
+- Red: any category >= 4
+
+### 4) Provide mitigation edits
+
+For each yellow/red item, output:
 - problem line
 - safer rewrite
-- confidence note
+- confidence level
 
-### 4) Final verdict
+Then provide:
+- top 3 highest-impact fixes
+- publish-ready revised version when possible
 
-Return:
-- risk color (green/yellow/red)
-- top 3 fixes by impact
-- revised publish-ready version when possible
+## Quality and safety rules
 
-## Quality rules
-
-- Be strict on clear policy risk.
-- Avoid fear-driven overblocking.
-- Keep rewrites human, specific, and publishable.
+- Be strict on clear policy-violation language.
+- Avoid overblocking harmless content.
+- Preserve original creator intent where safe.
+- Do not provide policy-evasion tactics.

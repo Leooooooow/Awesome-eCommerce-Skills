@@ -7,55 +7,57 @@ description: Generate, test, and refine short-video hooks for TikTok, Reels, and
 
 ## Overview
 
-Use this skill to produce hook variants that are specific, scroll-stopping, and easy to film.  
-Optimize for **clarity + curiosity + payoff** in the first 1–3 seconds.
+Generate high-retention openings that are specific, shootable, and platform-native.
 
 ## Workflow
 
-### 1) Capture input context
+### 1) Capture context
 
 Collect:
+- target audience
+- core promise
+- desired action (watch/comment/click/buy)
+- platform (TikTok / Reels / Shorts)
 
-- Target audience
-- Core promise (what viewer gets)
-- Desired action (watch, comment, click, buy)
-- Platform (TikTok / IG Reels / YouTube Shorts)
+If key context is missing, infer minimal defaults and mark assumptions.
 
-If context is missing, infer minimal defaults and proceed.
+### 2) Generate 12 hook variants
 
-### 2) Generate hook set
+Cover 6 families:
+- contrarian
+- checklist
+- mistake/fix
+- proof-first
+- personal observation
+- urgent timing
 
-Create 12 variants across these families:
+Evidence rule for proof-first hooks:
+- Use real metrics only when verified.
+- If not verified, avoid precise numbers and use non-fabricated wording.
 
-- Contrarian opener
-- Fast checklist opener
-- Mistake/fix opener
-- Proof-first opener
-- Personal observation opener
-- Urgent timing opener
+### 3) Score and select
 
-### 3) Score hooks
+Score each hook (1–5):
+- clarity
+- curiosity
+- specificity
+- filmability
+- promise-action fit (optional tie-break)
 
-Score each variant (1–5) on:
+Pick Top 3 + 1 backup.
 
-- Clarity (is the value obvious?)
-- Curiosity (is there a reason to keep watching?)
-- Specificity (does it avoid generic fluff?)
-- Filmability (can creator shoot quickly?)
-
-Pick top 3 and provide one backup.
-
-### 4) Attach micro-outline
+### 4) Build micro execution pack
 
 For each selected hook, provide:
-
-- Hook line (1 sentence)
+- hook line
 - 10-second flow (3 bullets)
-- Suggested on-screen text
+- on-screen text
 - CTA line
+- filming complexity (low/medium/high)
 
 ## Output rules
 
 - Keep language conversational and human.
-- Avoid clickbait promises that cannot be fulfilled.
-- Prefer concrete nouns and measurable claims over vague hype.
+- Avoid clickbait that cannot be fulfilled.
+- Prefer concrete wording over vague hype.
+- If uncertain, choose clarity over cleverness.

@@ -5,43 +5,48 @@ description: Connect creator content outputs to practical business outcomes usin
 
 # Creator Attribution Lite
 
-## What this does (plain language)
+## What this does
 
-Show which content actually moved business results, not just views and likes.
+Show which content likely moved business outcomes, not just vanity metrics.
 
 ## Workflow
 
-### 1) Collect minimal dataset
+### 1) Validate data availability
 
-Need at least:
-- content ID and publish date
-- platform + format
-- top metrics (views, watch %, saves, clicks)
-- business signal (lead, signup, sale, GMV)
+Minimum fields per content item:
+- content ID + date + platform
+- views/watch metric
+- click metric
+- downstream metric (lead/signup/sale/GMV)
 
-### 2) Map funnel stages
+If real data is missing, run **simulation mode** and label outputs clearly as demo/synthetic.
 
-Classify each content item:
+### 2) Map funnel stage
+
+Classify each content item as:
 - awareness
 - consideration
 - conversion
 
 ### 3) Compute lightweight impact score
 
-Use simple weighted logic:
+Use transparent weighted components:
 - engagement quality
 - click intent
-- downstream conversion signal
+- conversion signal
 
-### 4) Output action list
+Explain formula and normalization assumptions.
+
+### 4) Output action decisions
 
 Return:
-- top performers by business impact
-- underperformers to pause
-- 3 next content bets with rationale
+- ranked performers
+- pause/optimize list
+- next 3 content bets with rationale
+- confidence note (sample size/data quality)
 
 ## Quality rules
 
-- Keep model transparent and explainable.
-- Avoid fake precision with tiny samples.
-- Recommend decisions, not just metrics dumps.
+- Keep model explainable and auditable.
+- Avoid fake precision on tiny samples.
+- Do not overclaim causality; treat as directional evidence.
