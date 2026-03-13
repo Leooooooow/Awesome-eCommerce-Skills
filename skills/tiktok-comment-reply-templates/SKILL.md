@@ -1,9 +1,9 @@
 ---
-name: tiktok-comment-sales-reply-engine
+name: tiktok-comment-reply-templates
 description: Generate conversion-focused TikTok comment replies that turn questions and objections into safe next-step actions without sounding spammy. Use when the user needs sales replies for TikTok comments, wants structured reply scripts by intent, or needs comment-to-DM/cart conversion sequences for TikTok Shop.
 ---
 
-# TikTok Comment Sales Reply Engine
+# TikTok Comment Reply Templates
 
 ## Skill Card
 

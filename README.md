@@ -94,8 +94,8 @@ The following skills are now in staged release (GitHub first, ClawHub in waves):
 - `checkout-friction-audit`
 - `promo-calendar-optimizer`
 - `creator-outreach-sequence-lab`
-- `tiktok-live-objection-handler`
-- `tiktok-comment-sales-reply-engine`
+- `tiktok-live-reply-scripts`
+- `tiktok-comment-reply-templates`
 - `creator-followup-sequence`
 - `affiliate-offer-angle-tester`
 
@@ -202,8 +202,8 @@ Output: <输出格式>
 - `checkout-friction-audit`
 - `promo-calendar-optimizer`
 - `creator-outreach-sequence-lab`
-- `tiktok-live-objection-handler`
-- `tiktok-comment-sales-reply-engine`
+- `tiktok-live-reply-scripts`
+- `tiktok-comment-reply-templates`
 - `creator-followup-sequence`
 - `affiliate-offer-angle-tester`
 

@@ -1,9 +1,9 @@
 ---
-name: tiktok-live-objection-handler
+name: tiktok-live-reply-scripts
 description: Handle TikTok Live sales objections in real time with structured reply strategies, risk-safe phrasing, and conversion-focused response sequences. Use when the user asks how to reply to buyer objections during live selling, wants objection scripts, or needs a playbook for price/trust/urgency hesitation in TikTok Shop live sessions.
 ---
 
-# TikTok Live Objection Handler
+# TikTok Live Reply Scripts
 
 ## Skill Card
 

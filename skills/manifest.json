@@ -244,7 +244,7 @@
       "priority": 20
     },
     {
-      "slug": "tiktok-live-objection-handler",
+      "slug": "tiktok-live-reply-scripts",
       "category": "Live Commerce Conversion",
       "problem": "How to handle live objections without killing trust or conversion?",
       "input": "Live objections, product facts, offer terms, proof snippets, risk constraints",
@@ -256,7 +256,7 @@
       "priority": 21
     },
     {
-      "slug": "tiktok-comment-sales-reply-engine",
+      "slug": "tiktok-comment-reply-templates",
       "category": "Comment Conversion",
       "problem": "How to convert TikTok comments into safe, actionable sales conversations?",
       "input": "Comment threads, product facts, offer terms, shipping/return policy, risk constraints",
