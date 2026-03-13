@@ -48,6 +48,14 @@ Use it to find the right skill by problem, workflow stage, and expected output.
 
 | 35 | `retention-drop-checker` | Performance Diagnostics | Why does short-video retention drop and what to fix first? | Script/transcript, retention clues, structure notes, audience | Drop diagnosis + fix actions + next script skeleton | beta | performance |
 
+| 36 | `creator-payment-terms-template` | Creator Operations | How to set clear creator payment terms before launch? | Collaboration model, deliverables, acceptance rules, payment timing, extra terms | Payment summary + risk points + copy-ready terms | beta | operations |
+
+| 37 | `tiktok-affiliate-roi-calculator` | Performance & Measurement | Is this TikTok affiliate deal worth launching? | Price, costs, payout model, expected volume, extra spend | ROI result + risk notes + go/watch/no-go recommendation | beta | measurement |
+
+| 38 | `product-image-upscaler` | Image & Media Tools | How to make product images sharper for listings and ads? | Source image condition, target platform, size need, brand constraints | Image diagnosis + enhancement plan + output spec guidance | beta | media |
+
+| 39 | `audio-to-text-caption` | Image & Media Tools | How to turn creator audio into clean captions and reusable text? | Audio source, language, output goal, style preference | Clean transcript + caption-ready text + review notes | beta | media |
+
 ## How to propose a new skill
 
 Open a GitHub issue with template: **New skill / use-case proposal** and include:

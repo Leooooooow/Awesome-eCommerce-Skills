@@ -56,6 +56,10 @@ This is our long-term flywheel:
 - `creator-collab-checklist`
 - `tiktok-claim-rewriter`
 - `retention-drop-checker`
+- `creator-payment-terms-template`
+- `tiktok-affiliate-roi-calculator`
+- `product-image-upscaler`
+- `audio-to-text-caption`
 
 Full catalog:
 - Skills map: [`skills/INDEX.md`](skills/INDEX.md)

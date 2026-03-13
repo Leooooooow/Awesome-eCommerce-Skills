@@ -422,6 +422,54 @@
       "status": "beta",
       "stage": "performance",
       "priority": 35
+    },
+    {
+      "slug": "creator-payment-terms-template",
+      "category": "Creator Operations",
+      "problem": "How to set clear creator payment terms before launch?",
+      "input": "Collaboration model, deliverables, acceptance rules, payment timing, extra terms",
+      "output": "Payment summary + risk points + copy-ready terms",
+      "best_for": "Teams reducing payout disputes and campaign friction",
+      "handoff": "Use as payout alignment template before creator launch",
+      "status": "beta",
+      "stage": "operations",
+      "priority": 36
+    },
+    {
+      "slug": "tiktok-affiliate-roi-calculator",
+      "category": "Performance & Measurement",
+      "problem": "Is this TikTok affiliate deal worth launching?",
+      "input": "Price, costs, payout model, expected volume, extra spend",
+      "output": "ROI result + risk notes + go/watch/no-go recommendation",
+      "best_for": "Fast go/no-go decisions before affiliate launch",
+      "handoff": "Use output to compare creators and commission structures",
+      "status": "beta",
+      "stage": "measurement",
+      "priority": 37
+    },
+    {
+      "slug": "product-image-upscaler",
+      "category": "Image & Media Tools",
+      "problem": "How to make product images sharper for listings and ads?",
+      "input": "Source image condition, target platform, size need, brand constraints",
+      "output": "Image diagnosis + enhancement plan + output spec guidance",
+      "best_for": "Teams reusing low-res product visuals across channels",
+      "handoff": "Use plan in listing, ad, and PDP image workflows",
+      "status": "beta",
+      "stage": "media",
+      "priority": 38
+    },
+    {
+      "slug": "audio-to-text-caption",
+      "category": "Image & Media Tools",
+      "problem": "How to turn creator audio into clean captions and reusable text?",
+      "input": "Audio source, language, output goal, style preference",
+      "output": "Clean transcript + caption-ready text + review notes",
+      "best_for": "Fast subtitle and script-reuse workflows",
+      "handoff": "Use transcript in captioning, editing, and script iteration",
+      "status": "beta",
+      "stage": "media",
+      "priority": 39
     }
   ]
 }
