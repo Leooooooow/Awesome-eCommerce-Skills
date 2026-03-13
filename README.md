@@ -60,6 +60,10 @@ This is our long-term flywheel:
 - `tiktok-affiliate-roi-calculator`
 - `product-image-upscaler`
 - `audio-to-text-caption`
+- `ecommerce-image-asset-generator`
+- `content-source-to-markdown`
+- `multichannel-content-publisher`
+- `ecommerce-copy-humanizer-zh`
 
 Full catalog:
 - Skills map: [`skills/INDEX.md`](skills/INDEX.md)

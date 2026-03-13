@@ -470,6 +470,54 @@
       "status": "beta",
       "stage": "media",
       "priority": 39
+    },
+    {
+      "slug": "ecommerce-image-asset-generator",
+      "category": "Image & Media Tools",
+      "problem": "How to convert product selling points into high-conversion visual assets quickly?",
+      "input": "Product brief, key points, target audience, channel specs, compliance boundaries",
+      "output": "Asset plan + copy skeleton + visual direction + channel adaptation",
+      "best_for": "Teams needing rapid campaign and PDP visual output",
+      "handoff": "Use outputs with image generation/design workflows",
+      "status": "beta",
+      "stage": "creation",
+      "priority": 40
+    },
+    {
+      "slug": "content-source-to-markdown",
+      "category": "Market Intelligence",
+      "problem": "How to convert scattered links and social snippets into reusable markdown research briefs?",
+      "input": "URLs, social links, source snippets, output purpose",
+      "output": "Structured markdown brief with key findings and actions",
+      "best_for": "Competitor/content research before script and campaign execution",
+      "handoff": "Feed into script, SEO, and planning workflows",
+      "status": "beta",
+      "stage": "discovery",
+      "priority": 41
+    },
+    {
+      "slug": "multichannel-content-publisher",
+      "category": "Distribution",
+      "problem": "How to adapt one ecommerce message into channel-native publish versions?",
+      "input": "Core message, target channels, brand voice, CTA goals",
+      "output": "Channel publish pack + CTA mapping + posting rhythm",
+      "best_for": "Cross-platform launch and campaign operations",
+      "handoff": "Directly use in publishing SOP and scheduler",
+      "status": "beta",
+      "stage": "distribution",
+      "priority": 42
+    },
+    {
+      "slug": "ecommerce-copy-humanizer-zh",
+      "category": "Conversion",
+      "problem": "How to remove AI tone from Chinese ecommerce copy while keeping conversion performance?",
+      "input": "Original copy, platform, audience, tone preference, compliance boundaries",
+      "output": "Humanized copy variants + risk-safe wording swaps",
+      "best_for": "PDP, live, comment reply, and ad copy optimization",
+      "handoff": "Push final copy into publishing and customer-touch workflows",
+      "status": "beta",
+      "stage": "conversion",
+      "priority": 43
     }
   ]
 }

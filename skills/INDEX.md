@@ -56,6 +56,14 @@ Use it to find the right skill by problem, workflow stage, and expected output.
 
 | 39 | `audio-to-text-caption` | Image & Media Tools | How to turn creator audio into clean captions and reusable text? | Audio source, language, output goal, style preference | Clean transcript + caption-ready text + review notes | beta | media |
 
+| 40 | `ecommerce-image-asset-generator` | Image & Media Tools | How to convert product selling points into high-conversion visual assets quickly? | Product brief, key points, target audience, channel specs, compliance boundaries | Asset plan + copy skeleton + visual direction + channel adaptation | beta | creation |
+
+| 41 | `content-source-to-markdown` | Market Intelligence | How to convert scattered links and social snippets into reusable markdown research briefs? | URLs, social links, source snippets, output purpose | Structured markdown brief with key findings and actions | beta | discovery |
+
+| 42 | `multichannel-content-publisher` | Distribution | How to adapt one ecommerce message into channel-native publish versions? | Core message, target channels, brand voice, CTA goals | Channel publish pack + CTA mapping + posting rhythm | beta | distribution |
+
+| 43 | `ecommerce-copy-humanizer-zh` | Conversion | How to remove AI tone from Chinese ecommerce copy while keeping conversion performance? | Original copy, platform, audience, tone preference, compliance boundaries | Humanized copy variants + risk-safe wording swaps | beta | conversion |
+
 ## How to propose a new skill
 
 Open a GitHub issue with template: **New skill / use-case proposal** and include:
