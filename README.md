@@ -82,7 +82,7 @@ This repo is built as a rolling, test-driven skill lab:
 
 ### Next demand batch (staged release)
 
-The following 10 skills are now in staged release (GitHub first, ClawHub in waves):
+The following skills are now in staged release (GitHub first, ClawHub in waves):
 
 - `tiktok-shop-creator-fit-scorer`
 - `review-defect-miner`
@@ -94,10 +94,9 @@ The following 10 skills are now in staged release (GitHub first, ClawHub in wave
 - `checkout-friction-audit`
 - `promo-calendar-optimizer`
 - `creator-outreach-sequence-lab`
-
 - `tiktok-live-objection-handler`
-
 - `tiktok-comment-sales-reply-engine`
+- `creator-followup-sequence`
 
 ### Repository structure
 
@@ -190,7 +189,7 @@ Output: <输出格式>
 
 ### 下一批需求技能（分批发布）
 
-以下 10 个技能已进入分批发布（先 GitHub，后 ClawHub 分波次）：
+以下技能已进入分批发布（先 GitHub，后 ClawHub 分波次）：
 
 - `tiktok-shop-creator-fit-scorer`
 - `review-defect-miner`
@@ -202,6 +201,9 @@ Output: <输出格式>
 - `checkout-friction-audit`
 - `promo-calendar-optimizer`
 - `creator-outreach-sequence-lab`
+- `tiktok-live-objection-handler`
+- `tiktok-comment-sales-reply-engine`
+- `creator-followup-sequence`
 
 ### 仓库结构
 

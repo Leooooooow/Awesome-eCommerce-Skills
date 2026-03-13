@@ -314,6 +314,18 @@
       "status": "beta",
       "stage": "insight",
       "priority": 26
+    },
+    {
+      "slug": "creator-followup-sequence",
+      "category": "Creator Acquisition",
+      "problem": "How to follow up with creators after no reply without sounding annoying or robotic?",
+      "input": "Original outreach, creator context, offer angle, time since first touch, desired next step",
+      "output": "Short follow-up sequence + timing recommendation + stop rule",
+      "best_for": "Recovering stalled outreach and reviving creator conversations",
+      "handoff": "Store winning follow-up patterns in outreach SOPs and CRM templates",
+      "status": "beta",
+      "stage": "acquisition",
+      "priority": 27
     }
   ]
 }
