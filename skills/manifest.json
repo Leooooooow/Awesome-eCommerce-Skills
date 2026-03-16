@@ -484,6 +484,18 @@
       "priority": 40
     },
     {
+      "slug": "shopify-product-description-generator",
+      "category": "Storefront & Merchandising",
+      "problem": "How to turn raw product facts into clear Shopify-ready descriptions that actually help conversion?",
+      "input": "Product facts, target audience, USP, proof points, tone, and claim boundaries",
+      "output": "Shopify-ready description set with headline, benefit blocks, CTA, and risk notes",
+      "best_for": "Fast PDP copy drafting before manual polishing",
+      "handoff": "Paste winning version into Shopify PDP or testing workflow",
+      "status": "beta",
+      "stage": "merchandising",
+      "priority": 40
+    },
+    {
       "slug": "content-source-to-markdown",
       "category": "Market Intelligence",
       "problem": "How to convert scattered links and social snippets into reusable markdown research briefs?",
@@ -493,6 +505,18 @@
       "handoff": "Feed into script, SEO, and planning workflows",
       "status": "beta",
       "stage": "discovery",
+      "priority": 41
+    },
+    {
+      "slug": "break-even-calculator-ecommerce",
+      "category": "Performance & Analytics",
+      "problem": "At what order volume or conversion level does this ecommerce offer stop losing money?",
+      "input": "Selling price, product cost, shipping, payment fees, ad spend, discounts, and fixed costs",
+      "output": "Break-even analysis with threshold volume, target CPA/ROAS, and risk notes",
+      "best_for": "Offer planning before launch or budget changes",
+      "handoff": "Use result to set bid guardrails and launch thresholds",
+      "status": "beta",
+      "stage": "measurement",
       "priority": 41
     },
     {
@@ -508,6 +532,18 @@
       "priority": 42
     },
     {
+      "slug": "profit-margin-calculator",
+      "category": "Performance & Analytics",
+      "problem": "What is the true profit margin after costs, discounts, fees, and refunds are included?",
+      "input": "Price, COGS, shipping, discount, fee structure, refund rate, and optional overhead allocation",
+      "output": "Margin breakdown with gross margin, net margin, weak spots, and action suggestions",
+      "best_for": "Quick profitability checks across products or offers",
+      "handoff": "Feed weak-margin findings into pricing or cost optimization decisions",
+      "status": "beta",
+      "stage": "measurement",
+      "priority": 42
+    },
+    {
       "slug": "ecommerce-copy-humanizer-zh",
       "category": "Conversion",
       "problem": "How to remove AI tone from Chinese ecommerce copy while keeping conversion performance?",
@@ -517,6 +553,18 @@
       "handoff": "Push final copy into publishing and customer-touch workflows",
       "status": "beta",
       "stage": "conversion",
+      "priority": 43
+    },
+    {
+      "slug": "shipping-cost-calculator-ecommerce",
+      "category": "Operations & Automation",
+      "problem": "How much is shipping really costing per order across zones, weight, packaging, and promo policy?",
+      "input": "Destination zones, package size/weight, carrier rates, fulfillment fees, free-shipping rules, and return assumptions",
+      "output": "Shipping cost model with per-order estimate, free-shipping impact, and policy recommendations",
+      "best_for": "Evaluating shipping policy or carrier changes",
+      "handoff": "Use outputs to reset thresholds, bundles, or carrier rules",
+      "status": "beta",
+      "stage": "operations",
       "priority": 43
     }
   ]

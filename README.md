@@ -161,6 +161,10 @@ That makes GitHub the best surface for:
 
 Recent wave includes:
 
+- `shopify-product-description-generator`
+- `break-even-calculator-ecommerce`
+- `profit-margin-calculator`
+- `shipping-cost-calculator-ecommerce`
 - `affiliate-offer-angle-tester`
 - `product-angle-ideas`
 - `tiktok-content-ideas-refresh`
