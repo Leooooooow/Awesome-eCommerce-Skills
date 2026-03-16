@@ -161,6 +161,10 @@ That makes GitHub the best surface for:
 
 Recent wave includes:
 
+- `ltv-cac-calculator`
+- `faq-generator-from-reviews`
+- `bundle-offer-generator`
+- `upsell-cross-sell-generator`
 - `return-rate-impact-calculator`
 - `inventory-reorder-calculator`
 - `roas-calculator`

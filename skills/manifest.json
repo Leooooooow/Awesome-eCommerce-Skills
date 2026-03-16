@@ -614,6 +614,54 @@
       "status": "beta",
       "stage": "measurement",
       "priority": 47
+    },
+    {
+      "slug": "ltv-cac-calculator",
+      "category": "Performance & Analytics",
+      "problem": "Does customer lifetime value justify current acquisition cost, or are we buying low-quality growth?",
+      "input": "Average order value, gross margin, purchase frequency, retention window, CAC, and optional refund / service-cost assumptions",
+      "output": "LTV/CAC ratio, payback framing, weak-point diagnosis, and recommendation",
+      "best_for": "Evaluating whether paid acquisition is economically healthy over time",
+      "handoff": "Use result to reset acquisition targets, retention priorities, or pricing strategy",
+      "status": "beta",
+      "stage": "measurement",
+      "priority": 48
+    },
+    {
+      "slug": "faq-generator-from-reviews",
+      "category": "Storefront & Merchandising",
+      "problem": "How do we turn real customer reviews into FAQs that reduce hesitation and improve conversion?",
+      "input": "Customer reviews, complaints, product details, common objections, and claim boundaries",
+      "output": "FAQ set with question themes, answer drafts, and risk / proof notes",
+      "best_for": "Building product-page FAQs from actual customer language",
+      "handoff": "Paste approved FAQs into PDP, landing page, or support center",
+      "status": "beta",
+      "stage": "merchandising",
+      "priority": 49
+    },
+    {
+      "slug": "bundle-offer-generator",
+      "category": "Storefront & Merchandising",
+      "problem": "What product bundle structure could increase AOV without destroying margin or confusing the customer?",
+      "input": "Product lineup, price points, gross margin, purchase intent, and merchandising constraints",
+      "output": "Bundle offer concepts with pricing logic, margin notes, and positioning suggestions",
+      "best_for": "Designing ecommerce bundles that are easier to sell and financially sane",
+      "handoff": "Use bundle concepts in PDP, cart upsell, email, or promo pages",
+      "status": "beta",
+      "stage": "merchandising",
+      "priority": 50
+    },
+    {
+      "slug": "upsell-cross-sell-generator",
+      "category": "Storefront & Merchandising",
+      "problem": "What upsell or cross-sell suggestions make commercial sense and feel natural to the customer journey?",
+      "input": "Core product, adjacent products, pricing, margin, intent stage, and merchandising constraints",
+      "output": "Upsell / cross-sell suggestions with placement, logic, and wording guidance",
+      "best_for": "Improving cart value without making the funnel feel pushy or random",
+      "handoff": "Use outputs in PDP modules, cart drawer, post-purchase offers, or email flows",
+      "status": "beta",
+      "stage": "merchandising",
+      "priority": 51
     }
   ]
 }
