@@ -161,6 +161,10 @@ That makes GitHub the best surface for:
 
 Recent wave includes:
 
+- `return-rate-impact-calculator`
+- `inventory-reorder-calculator`
+- `roas-calculator`
+- `cpa-calculator-ecommerce`
 - `shopify-product-description-generator`
 - `break-even-calculator-ecommerce`
 - `profit-margin-calculator`

@@ -566,6 +566,54 @@
       "status": "beta",
       "stage": "operations",
       "priority": 43
+    },
+    {
+      "slug": "return-rate-impact-calculator",
+      "category": "Performance & Analytics",
+      "problem": "How much is return rate quietly eroding revenue, margin, and allowable acquisition cost?",
+      "input": "Order volume, selling price, gross margin, return rate, refund policy, reverse-logistics cost, and resale assumptions",
+      "output": "Return-rate impact breakdown with margin drag, threshold warnings, and recommended actions",
+      "best_for": "Diagnosing whether high return behavior is killing profitability",
+      "handoff": "Use result to adjust offer, PDP expectations, policy, or acquisition guardrails",
+      "status": "beta",
+      "stage": "measurement",
+      "priority": 44
+    },
+    {
+      "slug": "inventory-reorder-calculator",
+      "category": "Operations & Automation",
+      "problem": "When should we reorder inventory before stockouts or cash drag get worse?",
+      "input": "Current stock, average daily sales, lead time, minimum order quantity, safety stock target, and seasonality notes",
+      "output": "Reorder point, suggested reorder quantity, stockout risk note, and planning recommendations",
+      "best_for": "Inventory planning for fast-moving ecommerce SKUs",
+      "handoff": "Use outputs to place purchase orders and reset safety-stock policy",
+      "status": "beta",
+      "stage": "operations",
+      "priority": 45
+    },
+    {
+      "slug": "roas-calculator",
+      "category": "Performance & Analytics",
+      "problem": "Is current ad spend generating enough revenue to justify scale after real ecommerce economics are considered?",
+      "input": "Ad spend, attributed revenue, margin assumptions, discounts, refund rate, and optional blended-cost notes",
+      "output": "ROAS view with break-even reference, adjusted reality check, and scale/hold/cut recommendation",
+      "best_for": "Quick ad-performance sanity checks before scaling budget",
+      "handoff": "Use output to decide whether to scale, fix offer economics, or reduce spend",
+      "status": "beta",
+      "stage": "measurement",
+      "priority": 46
+    },
+    {
+      "slug": "cpa-calculator-ecommerce",
+      "category": "Performance & Analytics",
+      "problem": "What customer acquisition cost can this ecommerce offer actually afford before growth turns unprofitable?",
+      "input": "Selling price, margin structure, refund rate, conversion assumptions, and current or target ad economics",
+      "output": "Allowable CPA range, break-even CPA, and recommendation for bidding or offer changes",
+      "best_for": "Setting paid-acquisition guardrails for ecommerce campaigns",
+      "handoff": "Use result to set bid caps, budget guardrails, and offer-level traffic rules",
+      "status": "beta",
+      "stage": "measurement",
+      "priority": 47
     }
   ]
 }
