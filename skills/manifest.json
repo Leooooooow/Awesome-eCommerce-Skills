@@ -746,6 +746,54 @@
       "status": "beta",
       "stage": "conversion",
       "priority": 58
+    },
+    {
+      "slug": "aov-uplift-simulator",
+      "category": "Performance & Analytics",
+      "problem": "How much could average order value increase if we improve bundle uptake, upsell rate, or cart composition?",
+      "input": "Current AOV, order mix, bundle or upsell assumptions, attach rates, pricing changes, margin notes, and traffic assumptions",
+      "output": "AOV uplift scenarios with sensitivity view, upside estimate, and guardrail notes",
+      "best_for": "Offer testing, merchandising planning, upsell design, and growth scenario review",
+      "handoff": "Use the scenario output to decide which AOV levers are worth testing first",
+      "status": "beta",
+      "stage": "measurement",
+      "priority": 59
+    },
+    {
+      "slug": "discount-impact-calculator",
+      "category": "Performance & Analytics",
+      "problem": "What does this discount really do to margin, conversion needs, and allowable acquisition cost?",
+      "input": "Current price, discount level, cost structure, conversion assumptions, refund rate, and ad economics",
+      "output": "Discount impact view with revenue change, margin drag, break-even needs, and recommendation",
+      "best_for": "Promo planning, discount testing, and paid traffic decision support",
+      "handoff": "Use the output to decide whether to run, reduce, or redesign the discount offer",
+      "status": "beta",
+      "stage": "measurement",
+      "priority": 60
+    },
+    {
+      "slug": "bundle-margin-calculator",
+      "category": "Performance & Analytics",
+      "problem": "Does this product bundle improve order economics, or does it just make the offer look bigger while margin gets worse?",
+      "input": "Bundle products, individual prices, bundle price, COGS, shipping assumptions, take rate, and optional refund assumptions",
+      "output": "Bundle margin breakdown with AOV effect, margin view, weak points, and recommendation",
+      "best_for": "Bundle testing, pricing review, and merchandising economics",
+      "handoff": "Use the result to refine bundle structure or pricing before launch",
+      "status": "beta",
+      "stage": "measurement",
+      "priority": 61
+    },
+    {
+      "slug": "offer-profitability-checker",
+      "category": "Performance & Analytics",
+      "problem": "Is this ecommerce offer actually profitable once the real costs and conversion economics are included?",
+      "input": "Selling price, cost structure, discounts, shipping, refund assumptions, traffic costs, and optional retention assumptions",
+      "output": "Profitability check with margin logic, risk flags, weak points, and go/watch/no-go recommendation",
+      "best_for": "Offer review, launch checks, pricing decisions, and performance troubleshooting",
+      "handoff": "Use the result to revise pricing, discounting, or traffic strategy before scaling",
+      "status": "beta",
+      "stage": "measurement",
+      "priority": 62
     }
   ]
 }

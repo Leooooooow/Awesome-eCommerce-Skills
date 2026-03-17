@@ -198,6 +198,10 @@ Recent wave includes:
 - `ecommerce-copy-humanizer-fr`
 - `ecommerce-landing-page-conversion-audit`
 - `ad-creative-brief-generator`
+- `aov-uplift-simulator`
+- `discount-impact-calculator`
+- `bundle-margin-calculator`
+- `offer-profitability-checker`
 
 Full catalog:
 - [`skills/INDEX.md`](skills/INDEX.md)
