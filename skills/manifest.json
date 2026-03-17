@@ -722,6 +722,30 @@
       "status": "beta",
       "stage": "conversion",
       "priority": 56
+    },
+    {
+      "slug": "ecommerce-landing-page-conversion-audit",
+      "category": "Storefront & Merchandising",
+      "problem": "What is stopping this ecommerce landing page from converting, and what should we fix first?",
+      "input": "Landing page URL or page copy, target audience, offer details, traffic intent, and known constraints",
+      "output": "Conversion audit with friction diagnosis, prioritized fixes, and rewrite suggestions",
+      "best_for": "Ecommerce landing pages, PDP-style pages, campaign pages, and conversion review before traffic scale",
+      "handoff": "Use the fix list to improve copy, structure, proof, and CTA before the next traffic push",
+      "status": "beta",
+      "stage": "merchandising",
+      "priority": 57
+    },
+    {
+      "slug": "ad-creative-brief-generator",
+      "category": "Conversion",
+      "problem": "How do we turn messy campaign inputs into a clear ad creative brief that creators, designers, or media teams can execute?",
+      "input": "Product facts, target audience, campaign goal, offer angle, channel constraints, proof points, and forbidden claims",
+      "output": "Creative brief with angle, message hierarchy, hook direction, proof notes, CTA, and execution guardrails",
+      "best_for": "Paid social, creator ads, UGC workflows, performance creative iteration, and cross-functional handoff",
+      "handoff": "Send the brief into ad production, creator workflow, or creative testing pipeline",
+      "status": "beta",
+      "stage": "conversion",
+      "priority": 58
     }
   ]
 }

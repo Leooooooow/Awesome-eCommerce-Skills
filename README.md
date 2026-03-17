@@ -196,6 +196,8 @@ Recent wave includes:
 - `ecommerce-copy-humanizer-th`
 - `ecommerce-copy-humanizer-vn`
 - `ecommerce-copy-humanizer-fr`
+- `ecommerce-landing-page-conversion-audit`
+- `ad-creative-brief-generator`
 
 Full catalog:
 - [`skills/INDEX.md`](skills/INDEX.md)
