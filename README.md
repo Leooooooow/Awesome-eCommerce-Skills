@@ -191,6 +191,11 @@ Recent wave includes:
 - `content-source-to-markdown`
 - `multichannel-content-publisher`
 - `ecommerce-copy-humanizer-zh`
+- `ecommerce-copy-humanizer`
+- `ecommerce-copy-humanizer-id`
+- `ecommerce-copy-humanizer-th`
+- `ecommerce-copy-humanizer-vn`
+- `ecommerce-copy-humanizer-fr`
 
 Full catalog:
 - [`skills/INDEX.md`](skills/INDEX.md)

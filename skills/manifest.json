@@ -662,6 +662,66 @@
       "status": "beta",
       "stage": "merchandising",
       "priority": 51
+    },
+    {
+      "slug": "ecommerce-copy-humanizer",
+      "category": "Conversion",
+      "problem": "How to remove AI tone from English ecommerce copy while keeping conversion performance?",
+      "input": "Original English copy, platform, audience, tone preference, and compliance boundaries",
+      "output": "Humanized English copy variants + risk-safe wording swaps",
+      "best_for": "English PDP, ads, customer replies, and ecommerce captions",
+      "handoff": "Push final copy into publishing and customer-touch workflows",
+      "status": "beta",
+      "stage": "conversion",
+      "priority": 52
+    },
+    {
+      "slug": "ecommerce-copy-humanizer-id",
+      "category": "Conversion",
+      "problem": "How to remove AI tone from Bahasa Indonesia ecommerce copy while keeping conversion performance?",
+      "input": "Original Bahasa Indonesia copy, platform, audience, tone preference, and compliance boundaries",
+      "output": "Humanized Bahasa Indonesia copy variants + risk-safe wording swaps",
+      "best_for": "Indonesian PDP, live selling, seller chat, and ecommerce captions",
+      "handoff": "Push final copy into publishing and customer-touch workflows",
+      "status": "beta",
+      "stage": "conversion",
+      "priority": 53
+    },
+    {
+      "slug": "ecommerce-copy-humanizer-th",
+      "category": "Conversion",
+      "problem": "How to remove AI tone from Thai ecommerce copy while keeping conversion performance?",
+      "input": "Original Thai copy, platform, audience, tone preference, and compliance boundaries",
+      "output": "Humanized Thai copy variants + risk-safe wording swaps",
+      "best_for": "Thai product pages, social commerce captions, seller replies, and ecommerce scripts",
+      "handoff": "Push final copy into publishing and customer-touch workflows",
+      "status": "beta",
+      "stage": "conversion",
+      "priority": 54
+    },
+    {
+      "slug": "ecommerce-copy-humanizer-vn",
+      "category": "Conversion",
+      "problem": "How to remove AI tone from Vietnamese ecommerce copy while keeping conversion performance?",
+      "input": "Original Vietnamese copy, platform, audience, tone preference, and compliance boundaries",
+      "output": "Humanized Vietnamese copy variants + risk-safe wording swaps",
+      "best_for": "Vietnamese PDP, ads, seller replies, and ecommerce captions",
+      "handoff": "Push final copy into publishing and customer-touch workflows",
+      "status": "beta",
+      "stage": "conversion",
+      "priority": 55
+    },
+    {
+      "slug": "ecommerce-copy-humanizer-fr",
+      "category": "Conversion",
+      "problem": "How to remove AI tone from French ecommerce copy while keeping conversion performance?",
+      "input": "Original French copy, platform, audience, tone preference, and compliance boundaries",
+      "output": "Humanized French copy variants + risk-safe wording swaps",
+      "best_for": "French product pages, ads, customer replies, and ecommerce captions",
+      "handoff": "Push final copy into publishing and customer-touch workflows",
+      "status": "beta",
+      "stage": "conversion",
+      "priority": 56
     }
   ]
 }
