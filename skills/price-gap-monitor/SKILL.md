@@ -32,9 +32,23 @@ When live public pages are available, prefer **OpenClaw managed browser** for pa
 Recommended order:
 1. Use user-provided price snapshots if the user already has structured data.
 2. If page URLs or searchable listings are available, use **OpenClaw managed browser** to inspect current public pricing and promo signals.
-3. Only use Browser Relay / attached Chrome when the user explicitly asks to inspect their current browser tab.
+3. If the target marketplace gates pricing, ranking, or browsing depth behind login friction, explicitly remind the user to **log in first** so the agent can inspect fuller public results with fewer blockers.
+4. Only use Browser Relay / attached Chrome when the user explicitly asks to inspect their current browser tab.
 
 Do not default to Playwright-style assumptions in the user-facing guidance. The preferred browsing path is OpenClaw managed browser.
+
+### Login reminder rule
+
+For marketplaces such as Amazon, trigger a login reminder when any of these conditions appear:
+- search or category pages truncate, block, or degrade result visibility
+- best-seller/category pages fail to load correctly
+- location, cart, or account state is clearly affecting visible listings
+- the task requires going deeper than a shallow guest snapshot
+
+Suggested user-facing reminder:
+- “If you want a cleaner and more complete Amazon read, log in first. Logged-in browsing usually gives more stable category pages, better listing continuity, and fewer interruptions.”
+
+Do not claim login guarantees full data access. Present it as a practical way to improve visibility and continuity.
 
 ---
 
