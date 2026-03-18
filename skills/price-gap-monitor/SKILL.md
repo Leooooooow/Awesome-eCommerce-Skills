@@ -17,11 +17,6 @@ Use this mode when the user asks about:
 - one ASIN / listing / SKU
 - one named product across multiple platforms
 
-Typical requests:
-- “看一下拓竹 A1 Mini 最近价格变化”
-- “看某个亚马逊 listing 有没有降价”
-- “看这个单品在不同平台的价格差”
-
 ## Mode B — Category price-band monitoring
 
 Use this mode when the user asks about:
@@ -30,10 +25,16 @@ Use this mode when the user asks about:
 - a visible price band
 - cross-platform category pricing patterns
 
-Typical requests:
-- “看一下 3D 打印机这个类目的价格变化趋势”
-- “看一下 air fryer 最近主流售价有没有下探”
-- “看一下 pet hair remover 在 Amazon/Temu 的价格带变化”
+## Browser-first guidance
+
+When live public pages are available, prefer **OpenClaw managed browser** for page inspection.
+
+Recommended order:
+1. Use user-provided price snapshots if the user already has structured data.
+2. If page URLs or searchable listings are available, use **OpenClaw managed browser** to inspect current public pricing and promo signals.
+3. Only use Browser Relay / attached Chrome when the user explicitly asks to inspect their current browser tab.
+
+Do not default to Playwright-style assumptions in the user-facing guidance. The preferred browsing path is OpenClaw managed browser.
 
 ---
 
@@ -58,8 +59,6 @@ It must **not** fabricate hidden marketplace history, real sales counts, or full
 ## Inputs
 
 ### Input type A — user-provided snapshots
-
-Examples:
 - competitor price tables
 - prior exported marketplace snapshots
 - your current price baseline
@@ -67,90 +66,33 @@ Examples:
 - promo windows or campaign timing
 
 ### Input type B — browser-collected public data
-
-Examples:
 - a product model name
 - an ASIN / SKU / listing URL
 - a category keyword
 - target platforms (Amazon, Temu, TikTok Shop, Walmart, etc.)
 - market / locale (US, UK, JP, DE, etc.)
 
-When only a product or category target is provided, the skill should first collect visible data from public pages before making any interpretation.
-
 ---
 
 ## Workflow
 
 ### Mode A — Product-level workflow
-
 1. Define the exact product scope.
-   - product name
-   - brand + model
-   - ASIN / listing / SKU
-   - target platforms
-
 2. Collect visible public signals.
-   - current listed price
-   - discount / coupon / promo marker
-   - seller/store context when visible
-   - rating / review count
-   - badge / bestseller signal when visible
-   - capture timestamp
-
 3. Normalize comparison points.
-   - same product vs same product
-   - same variant vs same variant
-   - same region / market when possible
-
 4. Determine evidence strength.
-   - only one fresh snapshot
-   - repeated observations across timestamps
-   - cross-platform spread only
-
 5. Produce result.
-   - current price snapshot
-   - observed change or “insufficient trend history”
-   - promo / anomaly note
-   - action suggestion
 
 ### Mode B — Category-level workflow
-
 1. Define the category scope.
-   - keyword
-   - category page
-   - marketplace ranking / search results scope
-   - target platforms and region
-
 2. Collect visible top listings.
-   - listing title
-   - brand
-   - visible price
-   - promo marker
-   - ranking / bestseller signal when visible
-   - rating / review count
-   - capture timestamp
-
 3. Cluster the market.
-   - low / mid / high price bands
-   - common promo patterns
-   - dominant brands / repeated price anchors
-
 4. Determine evidence strength.
-   - single snapshot only
-   - repeated snapshots over time
-   - cross-platform comparison only
-
 5. Produce result.
-   - current category price-band snapshot
-   - observed shift or “insufficient trend history”
-   - likely noise vs real movement
-   - action suggestion
 
 ---
 
 ## Trend interpretation rules
-
-These rules are mandatory.
 
 1. **Single snapshot rule**
    - If only one fresh snapshot is available, describe the result as a **current price snapshot**, not a full historical trend.
@@ -174,8 +116,6 @@ These rules are mandatory.
 
 ## Output format
 
-Return in this order.
-
 ### For Mode A — product-level
 1. Executive summary (max 5 lines)
 2. Current product snapshot
@@ -198,30 +138,9 @@ Return in this order.
 
 - Never recommend below the stated margin floor unless explicitly allowed.
 - Avoid reacting to one-off noisy listing anomalies.
-- Distinguish clearly between:
-  - current visible price
-  - promo signal
-  - rank signal
-  - demand signal
-  - observed trend
-  - inferred risk
 - Label uncertainty honestly.
 - If browser results are thin or ambiguous, say so directly.
 - Do not backfill missing marketplace data with guesses.
-
----
-
-## When not to use this skill
-
-Do **not** use this skill when the user actually wants:
-- deep competitor positioning research
-- review complaint analysis
-- exact private backend sales numbers
-- hidden inventory or non-public marketplace data
-
-In those cases, use a more appropriate research or feedback-analysis workflow.
-
----
 
 ## Creatop handoff
 
@@ -231,10 +150,6 @@ If the result is strong enough to act on, pass forward:
 - promo timing notes
 - category price anchors
 - cross-platform spread observations
-
-These can feed promo calendar, listing updates, and pricing review workflows.
-
----
 
 ## License
 

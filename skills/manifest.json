@@ -13,7 +13,20 @@
       "handoff": "Send top 3 topics into Creatop script workflow",
       "status": "stable",
       "stage": "discovery",
-      "priority": 1
+      "priority": 1,
+      "name": "Creator Search Intent Radar",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "short-video-hook-lab",
@@ -25,7 +38,20 @@
       "handoff": "Push winning hook into Creatop script composer",
       "status": "stable",
       "stage": "creation",
-      "priority": 2
+      "priority": 2,
+      "name": "Short Video Hook Lab",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "creator-deal-ops",
@@ -37,7 +63,22 @@
       "handoff": "Export checklist into team SOP / Notion / Feishu",
       "status": "stable",
       "stage": "operations",
-      "priority": 3
+      "priority": 3,
+      "name": "Creator Deal Ops",
+      "delivery_mode": "tool-assisted",
+      "requires_api": true,
+      "recommended_api": [
+        "Feishu API"
+      ],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "cross-platform-recut-planner",
@@ -49,7 +90,20 @@
       "handoff": "Generate platform-specific script variants in Creatop",
       "status": "stable",
       "stage": "distribution",
-      "priority": 4
+      "priority": 4,
+      "name": "Cross Platform Recut Planner",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "creator-monetization-risk-checker",
@@ -61,7 +115,20 @@
       "handoff": "Run final safe version through Creatop publishing workflow",
       "status": "stable",
       "stage": "risk-control",
-      "priority": 5
+      "priority": 5,
+      "name": "Creator Monetization Risk Checker",
+      "delivery_mode": "script-backed",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": true,
+      "script_runtime": "mixed",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "ugc-brief-to-script-engine",
@@ -73,7 +140,20 @@
       "handoff": "Batch-generate and review scripts via Creatop",
       "status": "stable",
       "stage": "creation",
-      "priority": 6
+      "priority": 6,
+      "name": "Ugc Brief To Script Engine",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "creator-attribution-lite",
@@ -85,7 +165,20 @@
       "handoff": "Feed winning patterns back to Creatop templates",
       "status": "stable",
       "stage": "measurement",
-      "priority": 7
+      "priority": 7,
+      "name": "Creator Attribution Lite",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "batch-content-sprint-os",
@@ -97,7 +190,20 @@
       "handoff": "Use sprint outputs to drive Creatop batch generation",
       "status": "stable",
       "stage": "operations",
-      "priority": 8
+      "priority": 8,
+      "name": "Batch Content Sprint Os",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "creator-proof-portfolio-builder",
@@ -109,7 +215,20 @@
       "handoff": "Attach proof pack in outreach sequence",
       "status": "stable",
       "stage": "conversion",
-      "priority": 9
+      "priority": 9,
+      "name": "Creator Proof Portfolio Builder",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "comment-to-content-recycler",
@@ -121,7 +240,20 @@
       "handoff": "Send high-priority clusters into Creatop script queue",
       "status": "stable",
       "stage": "discovery",
-      "priority": 10
+      "priority": 10,
+      "name": "Comment To Content Recycler",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "tiktok-shop-creator-fit-scorer",
@@ -133,7 +265,20 @@
       "handoff": "Use top-ranked creators in outreach sequence and brief generation",
       "status": "beta",
       "stage": "acquisition",
-      "priority": 11
+      "priority": 11,
+      "name": "Tiktok Shop Creator Fit Scorer",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "review-defect-miner",
@@ -145,7 +290,20 @@
       "handoff": "Convert top defect clusters into product fixes + expectation-setting scripts",
       "status": "beta",
       "stage": "insight",
-      "priority": 12
+      "priority": 12,
+      "name": "Review Defect Miner",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "listing-gap-audit",
@@ -157,7 +315,20 @@
       "handoff": "Send priority rewrites into script/copy generation workflows",
       "status": "beta",
       "stage": "conversion",
-      "priority": 13
+      "priority": 13,
+      "name": "Listing Gap Audit",
+      "delivery_mode": "script-backed",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": true,
+      "script_runtime": "mixed",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "shopify-tracking-auditor",
@@ -169,7 +340,22 @@
       "handoff": "Apply fixes then rerun attribution review with creator-attribution-lite",
       "status": "beta",
       "stage": "measurement",
-      "priority": 14
+      "priority": 14,
+      "name": "Shopify Tracking Auditor",
+      "delivery_mode": "hybrid",
+      "requires_api": true,
+      "recommended_api": [
+        "Shopify Admin API"
+      ],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": true,
+      "script_runtime": "mixed",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "price-gap-monitor",
@@ -181,7 +367,22 @@
       "handoff": "Send accepted actions to promo calendar and listing updates",
       "status": "beta",
       "stage": "pricing",
-      "priority": 15
+      "priority": 15,
+      "name": "Price Gap Monitor",
+      "delivery_mode": "hybrid",
+      "requires_api": true,
+      "recommended_api": [
+        "Retail / storefront page data source"
+      ],
+      "requires_browser": true,
+      "browser_mode": "openclaw-managed",
+      "requires_script": true,
+      "script_runtime": "mixed",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "refund-reason-cluster",
@@ -193,7 +394,20 @@
       "handoff": "Feed top reasons into product fixes + pre-purchase expectation copy",
       "status": "beta",
       "stage": "retention",
-      "priority": 16
+      "priority": 16,
+      "name": "Refund Reason Cluster",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "ugc-hook-analyzer",
@@ -205,7 +419,20 @@
       "handoff": "Use winning hooks in short-video-hook-lab and script packs",
       "status": "beta",
       "stage": "creation",
-      "priority": 17
+      "priority": 17,
+      "name": "Ugc Hook Analyzer",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "checkout-friction-audit",
@@ -217,7 +444,20 @@
       "handoff": "Push fixes into sprint board and rerun after implementation",
       "status": "beta",
       "stage": "conversion",
-      "priority": 18
+      "priority": 18,
+      "name": "Checkout Friction Audit",
+      "delivery_mode": "script-backed",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": true,
+      "script_runtime": "mixed",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "promo-calendar-optimizer",
@@ -229,7 +469,20 @@
       "handoff": "Use outputs in batch-content-sprint-os and deal ops execution",
       "status": "beta",
       "stage": "operations",
-      "priority": 19
+      "priority": 19,
+      "name": "Promo Calendar Optimizer",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "creator-outreach-sequence-lab",
@@ -241,7 +494,20 @@
       "handoff": "Run sequence with creator-fit scorer shortlist and track responses",
       "status": "beta",
       "stage": "acquisition",
-      "priority": 20
+      "priority": 20,
+      "name": "Creator Outreach Sequence Lab",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "tiktok-live-reply-scripts",
@@ -253,7 +519,20 @@
       "handoff": "Save winning objection scripts into Creatop live SOP templates",
       "status": "beta",
       "stage": "conversion",
-      "priority": 21
+      "priority": 21,
+      "name": "Tiktok Live Reply Scripts",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "tiktok-comment-reply-templates",
@@ -265,7 +544,20 @@
       "handoff": "Store winning replies in Creatop comment response templates",
       "status": "beta",
       "stage": "conversion",
-      "priority": 22
+      "priority": 22,
+      "name": "Tiktok Comment Reply Templates",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "creator-analysis",
@@ -277,7 +569,20 @@
       "handoff": "Send approved creators into outreach or brief workflows",
       "status": "beta",
       "stage": "acquisition",
-      "priority": 23
+      "priority": 23,
+      "name": "Creator Analysis",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "creator-outreach",
@@ -289,7 +594,20 @@
       "handoff": "Use with creator analysis shortlist and proof assets",
       "status": "beta",
       "stage": "acquisition",
-      "priority": 24
+      "priority": 24,
+      "name": "Creator Outreach",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "comment-replies",
@@ -301,7 +619,20 @@
       "handoff": "Store winning reply patterns in comment SOPs and templates",
       "status": "beta",
       "stage": "conversion",
-      "priority": 25
+      "priority": 25,
+      "name": "Comment Replies",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "review-analysis",
@@ -313,7 +644,20 @@
       "handoff": "Convert top patterns into fixes, copy changes, or expectation resets",
       "status": "beta",
       "stage": "insight",
-      "priority": 26
+      "priority": 26,
+      "name": "Review Analysis",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "creator-followup-sequence",
@@ -325,7 +669,20 @@
       "handoff": "Store winning follow-up patterns in outreach SOPs and CRM templates",
       "status": "beta",
       "stage": "acquisition",
-      "priority": 27
+      "priority": 27,
+      "name": "Creator Followup Sequence",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "affiliate-offer-angle-tester",
@@ -337,7 +694,20 @@
       "handoff": "Use top-ranked angles in outreach scripts and creator brief variants",
       "status": "beta",
       "stage": "conversion",
-      "priority": 28
+      "priority": 28,
+      "name": "Affiliate Offer Angle Tester",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "product-angle-ideas",
@@ -349,7 +719,20 @@
       "handoff": "Pass top angle ideas into script generation and creator brief workflows",
       "status": "beta",
       "stage": "conversion",
-      "priority": 29
+      "priority": 29,
+      "name": "Product Angle Ideas",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "tiktok-content-ideas-refresh",
@@ -361,7 +744,20 @@
       "handoff": "Use refreshed topics as the next sprint queue for script production",
       "status": "beta",
       "stage": "discovery",
-      "priority": 30
+      "priority": 30,
+      "name": "Tiktok Content Ideas Refresh",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "creator-brief-checker",
@@ -373,7 +769,20 @@
       "handoff": "Send improved brief into outreach and collaboration workflows",
       "status": "beta",
       "stage": "operations",
-      "priority": 31
+      "priority": 31,
+      "name": "Creator Brief Checker",
+      "delivery_mode": "script-backed",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": true,
+      "script_runtime": "mixed",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "ugc-variants-generator",
@@ -385,7 +794,20 @@
       "handoff": "Feed top-performing variants into creator production and paid testing",
       "status": "beta",
       "stage": "creation",
-      "priority": 32
+      "priority": 32,
+      "name": "Ugc Variants Generator",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "creator-collab-checklist",
@@ -397,7 +819,20 @@
       "handoff": "Use checklist in campaign kickoff SOP and partner onboarding",
       "status": "beta",
       "stage": "operations",
-      "priority": 33
+      "priority": 33,
+      "name": "Creator Collab Checklist",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "tiktok-claim-rewriter",
@@ -409,7 +844,20 @@
       "handoff": "Use safe rewrites in final script QA and creator briefing",
       "status": "beta",
       "stage": "compliance",
-      "priority": 34
+      "priority": 34,
+      "name": "Tiktok Claim Rewriter",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "retention-drop-checker",
@@ -421,7 +869,20 @@
       "handoff": "Convert diagnostics into next script iteration and creative briefing",
       "status": "beta",
       "stage": "performance",
-      "priority": 35
+      "priority": 35,
+      "name": "Retention Drop Checker",
+      "delivery_mode": "script-backed",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": true,
+      "script_runtime": "mixed",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "creator-payment-terms-template",
@@ -433,7 +894,20 @@
       "handoff": "Use as payout alignment template before creator launch",
       "status": "beta",
       "stage": "operations",
-      "priority": 36
+      "priority": 36,
+      "name": "Creator Payment Terms Template",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "tiktok-affiliate-roi-calculator",
@@ -445,7 +919,20 @@
       "handoff": "Use output to compare creators and commission structures",
       "status": "beta",
       "stage": "measurement",
-      "priority": 37
+      "priority": 37,
+      "name": "Tiktok Affiliate Roi Calculator",
+      "delivery_mode": "script-backed",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": true,
+      "script_runtime": "mixed",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "product-image-upscaler",
@@ -457,7 +944,20 @@
       "handoff": "Use plan in listing, ad, and PDP image workflows",
       "status": "beta",
       "stage": "media",
-      "priority": 38
+      "priority": 38,
+      "name": "Product Image Upscaler",
+      "delivery_mode": "script-backed",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": true,
+      "script_runtime": "mixed",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "audio-to-text-caption",
@@ -469,7 +969,20 @@
       "handoff": "Use transcript in captioning, editing, and script iteration",
       "status": "beta",
       "stage": "media",
-      "priority": 39
+      "priority": 39,
+      "name": "Audio To Text Caption",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "ecommerce-image-asset-generator",
@@ -481,7 +994,20 @@
       "handoff": "Use outputs with image generation/design workflows",
       "status": "beta",
       "stage": "creation",
-      "priority": 40
+      "priority": 40,
+      "name": "Ecommerce Image Asset Generator",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "shopify-product-description-generator",
@@ -493,7 +1019,20 @@
       "handoff": "Paste winning version into Shopify PDP or testing workflow",
       "status": "beta",
       "stage": "merchandising",
-      "priority": 40
+      "priority": 40,
+      "name": "Shopify Product Description Generator",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "content-source-to-markdown",
@@ -505,7 +1044,20 @@
       "handoff": "Feed into script, SEO, and planning workflows",
       "status": "beta",
       "stage": "discovery",
-      "priority": 41
+      "priority": 41,
+      "name": "Content Source To Markdown",
+      "delivery_mode": "script-backed",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": true,
+      "script_runtime": "mixed",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "break-even-calculator-ecommerce",
@@ -517,7 +1069,20 @@
       "handoff": "Use result to set bid guardrails and launch thresholds",
       "status": "beta",
       "stage": "measurement",
-      "priority": 41
+      "priority": 41,
+      "name": "Break Even Calculator Ecommerce",
+      "delivery_mode": "script-backed",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": true,
+      "script_runtime": "mixed",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "multichannel-content-publisher",
@@ -529,7 +1094,20 @@
       "handoff": "Directly use in publishing SOP and scheduler",
       "status": "beta",
       "stage": "distribution",
-      "priority": 42
+      "priority": 42,
+      "name": "Multichannel Content Publisher",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "profit-margin-calculator",
@@ -541,7 +1119,20 @@
       "handoff": "Feed weak-margin findings into pricing or cost optimization decisions",
       "status": "beta",
       "stage": "measurement",
-      "priority": 42
+      "priority": 42,
+      "name": "Profit Margin Calculator",
+      "delivery_mode": "script-backed",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": true,
+      "script_runtime": "mixed",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "ecommerce-copy-humanizer-zh",
@@ -553,7 +1144,20 @@
       "handoff": "Push final copy into publishing and customer-touch workflows",
       "status": "beta",
       "stage": "conversion",
-      "priority": 43
+      "priority": 43,
+      "name": "Ecommerce Copy Humanizer Zh",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "shipping-cost-calculator-ecommerce",
@@ -565,7 +1169,20 @@
       "handoff": "Use outputs to reset thresholds, bundles, or carrier rules",
       "status": "beta",
       "stage": "operations",
-      "priority": 43
+      "priority": 43,
+      "name": "Shipping Cost Calculator Ecommerce",
+      "delivery_mode": "script-backed",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": true,
+      "script_runtime": "mixed",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "return-rate-impact-calculator",
@@ -577,7 +1194,20 @@
       "handoff": "Use result to adjust offer, PDP expectations, policy, or acquisition guardrails",
       "status": "beta",
       "stage": "measurement",
-      "priority": 44
+      "priority": 44,
+      "name": "Return Rate Impact Calculator",
+      "delivery_mode": "script-backed",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": true,
+      "script_runtime": "mixed",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "inventory-reorder-calculator",
@@ -589,7 +1219,20 @@
       "handoff": "Use outputs to place purchase orders and reset safety-stock policy",
       "status": "beta",
       "stage": "operations",
-      "priority": 45
+      "priority": 45,
+      "name": "Inventory Reorder Calculator",
+      "delivery_mode": "script-backed",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": true,
+      "script_runtime": "mixed",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "roas-calculator",
@@ -601,7 +1244,20 @@
       "handoff": "Use output to decide whether to scale, fix offer economics, or reduce spend",
       "status": "beta",
       "stage": "measurement",
-      "priority": 46
+      "priority": 46,
+      "name": "Roas Calculator",
+      "delivery_mode": "script-backed",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": true,
+      "script_runtime": "mixed",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "cpa-calculator-ecommerce",
@@ -613,7 +1269,20 @@
       "handoff": "Use result to set bid caps, budget guardrails, and offer-level traffic rules",
       "status": "beta",
       "stage": "measurement",
-      "priority": 47
+      "priority": 47,
+      "name": "Cpa Calculator Ecommerce",
+      "delivery_mode": "script-backed",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": true,
+      "script_runtime": "mixed",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "ltv-cac-calculator",
@@ -625,7 +1294,20 @@
       "handoff": "Use result to reset acquisition targets, retention priorities, or pricing strategy",
       "status": "beta",
       "stage": "measurement",
-      "priority": 48
+      "priority": 48,
+      "name": "Ltv Cac Calculator",
+      "delivery_mode": "script-backed",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": true,
+      "script_runtime": "mixed",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "faq-generator-from-reviews",
@@ -637,7 +1319,20 @@
       "handoff": "Paste approved FAQs into PDP, landing page, or support center",
       "status": "beta",
       "stage": "merchandising",
-      "priority": 49
+      "priority": 49,
+      "name": "Faq Generator From Reviews",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "bundle-offer-generator",
@@ -649,7 +1344,20 @@
       "handoff": "Use bundle concepts in PDP, cart upsell, email, or promo pages",
       "status": "beta",
       "stage": "merchandising",
-      "priority": 50
+      "priority": 50,
+      "name": "Bundle Offer Generator",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "upsell-cross-sell-generator",
@@ -661,7 +1369,20 @@
       "handoff": "Use outputs in PDP modules, cart drawer, post-purchase offers, or email flows",
       "status": "beta",
       "stage": "merchandising",
-      "priority": 51
+      "priority": 51,
+      "name": "Upsell Cross Sell Generator",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "ecommerce-copy-humanizer",
@@ -673,7 +1394,20 @@
       "handoff": "Push final copy into publishing and customer-touch workflows",
       "status": "beta",
       "stage": "conversion",
-      "priority": 52
+      "priority": 52,
+      "name": "Ecommerce Copy Humanizer",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "ecommerce-copy-humanizer-id",
@@ -685,7 +1419,20 @@
       "handoff": "Push final copy into publishing and customer-touch workflows",
       "status": "beta",
       "stage": "conversion",
-      "priority": 53
+      "priority": 53,
+      "name": "Ecommerce Copy Humanizer Id",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "ecommerce-copy-humanizer-th",
@@ -697,7 +1444,20 @@
       "handoff": "Push final copy into publishing and customer-touch workflows",
       "status": "beta",
       "stage": "conversion",
-      "priority": 54
+      "priority": 54,
+      "name": "Ecommerce Copy Humanizer Th",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "ecommerce-copy-humanizer-vn",
@@ -709,7 +1469,20 @@
       "handoff": "Push final copy into publishing and customer-touch workflows",
       "status": "beta",
       "stage": "conversion",
-      "priority": 55
+      "priority": 55,
+      "name": "Ecommerce Copy Humanizer Vn",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "ecommerce-copy-humanizer-fr",
@@ -721,7 +1494,20 @@
       "handoff": "Push final copy into publishing and customer-touch workflows",
       "status": "beta",
       "stage": "conversion",
-      "priority": 56
+      "priority": 56,
+      "name": "Ecommerce Copy Humanizer Fr",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "ecommerce-landing-page-conversion-audit",
@@ -733,7 +1519,20 @@
       "handoff": "Use the fix list to improve copy, structure, proof, and CTA before the next traffic push",
       "status": "beta",
       "stage": "merchandising",
-      "priority": 57
+      "priority": 57,
+      "name": "Ecommerce Landing Page Conversion Audit",
+      "delivery_mode": "script-backed",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": true,
+      "script_runtime": "mixed",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "ad-creative-brief-generator",
@@ -745,7 +1544,20 @@
       "handoff": "Send the brief into ad production, creator workflow, or creative testing pipeline",
       "status": "beta",
       "stage": "conversion",
-      "priority": 58
+      "priority": 58,
+      "name": "Ad Creative Brief Generator",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "aov-uplift-simulator",
@@ -757,7 +1569,20 @@
       "handoff": "Use the scenario output to decide which AOV levers are worth testing first",
       "status": "beta",
       "stage": "measurement",
-      "priority": 59
+      "priority": 59,
+      "name": "Aov Uplift Simulator",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "discount-impact-calculator",
@@ -769,7 +1594,20 @@
       "handoff": "Use the output to decide whether to run, reduce, or redesign the discount offer",
       "status": "beta",
       "stage": "measurement",
-      "priority": 60
+      "priority": 60,
+      "name": "Discount Impact Calculator",
+      "delivery_mode": "script-backed",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": true,
+      "script_runtime": "mixed",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "bundle-margin-calculator",
@@ -781,7 +1619,20 @@
       "handoff": "Use the result to refine bundle structure or pricing before launch",
       "status": "beta",
       "stage": "measurement",
-      "priority": 61
+      "priority": 61,
+      "name": "Bundle Margin Calculator",
+      "delivery_mode": "script-backed",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": true,
+      "script_runtime": "mixed",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     },
     {
       "slug": "offer-profitability-checker",
@@ -793,7 +1644,20 @@
       "handoff": "Use the result to revise pricing, discounting, or traffic strategy before scaling",
       "status": "beta",
       "stage": "measurement",
-      "priority": 62
+      "priority": 62,
+      "name": "Offer Profitability Checker",
+      "delivery_mode": "script-backed",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": true,
+      "script_runtime": "mixed",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     }
   ]
 }
