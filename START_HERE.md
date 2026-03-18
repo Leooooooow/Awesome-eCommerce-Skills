@@ -1,45 +1,74 @@
-# START_HERE
+# START HERE
 
-如果你是电商小龙虾，只做这三步：
+If you are new to Awesome eCommerce Skills, use this order:
 
-## 1) 这套 skills 是干嘛的？
-我们只解决电商高频问题：
-- 选题和脚本角度
-- 评论与直播转化回复
-- 达人 brief 与协作质量
-- 内容风险改写与数据诊断
+## 1) Understand what this GitHub repo is for
 
-## 2) 先装 4 个最常用（按顺序）
+This repository is the **public catalog and documentation layer** for ecommerce skills.
 
-```bash
-npx clawhub@latest install ugc-variants-generator
-npx clawhub@latest install creator-collab-checklist
-npx clawhub@latest install tiktok-claim-rewriter
-npx clawhub@latest install retention-drop-checker
-```
+Use GitHub to:
+- understand what a skill does
+- compare workflows
+- inspect metadata and examples
+- help humans and AI agents choose the right skill
 
-## 3) 直接照这个格式调用
+Do **not** treat GitHub as the main download surface for production-ready skills.
+
+## 2) Install real skills through SkillHub or ClawHub
+
+Recommended install sources:
+- **SkillHub** → preferred when available in your environment
+- **ClawHub** → public fallback and distribution channel
+
+The real install path should come from a registry, not from manually copying random files out of GitHub.
+
+## 3) Use this repo as a routing layer
+
+Start from:
+- [`skills/manifest.json`](skills/manifest.json) for machine-readable metadata
+- [`skills/INDEX.md`](skills/INDEX.md) for category navigation
+- `skills/<slug>/SKILL.md` for deeper workflow detail
+
+## Minimal mental model
+
+- **Website** = fastest browse experience
+- **GitHub** = catalog, docs, examples, trust
+- **SkillHub / ClawHub** = install real skills
+
+## How to prompt an agent with a skill
 
 ```text
-Use <skill-slug> to <目标>
-Input: <输入数据>
-Output: <输出格式>
+Use <skill-slug> to <goal>.
+Input: <source/data>
+Constraints: <channel/risk/time>
+Output: <format>
 ```
 
-示例：
+Example:
 
 ```text
 Use ugc-variants-generator to generate 12 short-video variants.
-Input: 1条基础脚本 + 目标人群 + 禁用词
-Output: 12条变体 + 每条hook + CTA
+Input: one base script + target audience + banned claims.
+Output: 12 variants + hook + CTA + test order.
 ```
 
----
+## Before you choose a skill
 
-## 不要做的事
-- 不要编造产品证据
-- 不要夸大功效
-- 不要脱离电商场景
+Check these fields first:
+- problem
+- best_for
+- stage
+- input
+- output
+- handoff
 
-## 出问题怎么办
-先看每个 skill 目录下的 `SKILL.md`，里面有输入输出说明和模板。
+Then check execution requirements:
+- does it need an API?
+- does it need browser automation?
+- does it need a script/runtime?
+
+## Suggested next reading
+
+- [What is a skill?](docs/what-is-a-skill.md)
+- [Installing real skills](docs/installing-real-skills.md)
+- [Skill metadata schema](docs/skill-metadata-schema.md)
