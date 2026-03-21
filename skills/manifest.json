@@ -417,7 +417,7 @@
       "output": "Hook diagnosis + improved variants + execution notes",
       "best_for": "Pre-shoot UGC optimization",
       "handoff": "Use winning hooks in short-video-hook-lab and script packs",
-      "status": "beta",
+      "status": "stable",
       "stage": "creation",
       "priority": 17,
       "name": "Ugc Hook Analyzer",
@@ -1617,10 +1617,10 @@
       "output": "Lightweight performance diagnosis + practical lessons + repurposing ideas",
       "best_for": "Fast TikTok teardowns for creators, ecommerce teams, and content operators",
       "handoff": "Turn takeaways into Creatop hooks, briefs, or post ideas",
-      "status": "beta",
+      "status": "stable",
       "stage": "analysis",
       "priority": 68,
-      "name": "Tiktok Video Analyzer",
+      "name": "Creatop TikTok Video Analyzer",
       "delivery_mode": "prompt-only",
       "requires_api": false,
       "recommended_api": [],
@@ -1632,7 +1632,8 @@
         "skillhub",
         "clawhub"
       ],
-      "visibility": "public-showcase"
+      "visibility": "public-showcase",
+      "published_slug": "creatop-tiktok-video-analyzer"
     },
     {
       "slug": "ecommerce-trend-to-content-angle",
