@@ -1909,6 +1909,81 @@
         "clawhub"
       ],
       "visibility": "public-showcase"
+    },
+    {
+      "slug": "creator-market-digest",
+      "category": "Creator Intelligence",
+      "problem": "How to turn scattered creator-market signals into a concise digest with operator value?",
+      "input": "Recent creator signals, examples, notes, time window, market focus",
+      "output": "A concise creator-market digest with implications and watchlist",
+      "best_for": "Creator commerce teams tracking changes worth acting on",
+      "handoff": "Use the digest to guide creator ops, content planning, and outreach priorities",
+      "status": "stable",
+      "stage": "discovery",
+      "priority": 80,
+      "name": "Creator Market Digest",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
+    },
+    {
+      "slug": "creator-ugc-editor",
+      "category": "Creator Content",
+      "problem": "How to turn rough creator-shot UGC into a cleaner but still native-feeling asset?",
+      "input": "Raw creator footage, use case, tone, duration, key talking points",
+      "output": "Edit strategy with keep/cut recommendations and tone guidance",
+      "best_for": "Teams shaping creator footage into usable ads, TikTok Shop assets, or storefront content",
+      "handoff": "Use the cleaned cut for creator posts, ads, PDPs, or social commerce workflows",
+      "status": "stable",
+      "stage": "post-production",
+      "priority": 81,
+      "name": "Creator UGC Editor",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
+    },
+    {
+      "slug": "upload-video-compressor",
+      "category": "Video Operations",
+      "problem": "How to compress a video into an upload-ready file without making it unusable?",
+      "input": "Source video, target platform, size limits, quality preference",
+      "output": "Upload-ready compressed video plan with size and quality tradeoffs",
+      "best_for": "Creators and ecommerce teams struggling with oversized upload files",
+      "handoff": "Use the lighter export for social, ads, storefront uploads, and review handoffs",
+      "status": "stable",
+      "stage": "post-production",
+      "priority": 82,
+      "name": "Upload Video Compressor",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     }
   ]
 }
