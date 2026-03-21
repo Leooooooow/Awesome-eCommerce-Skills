@@ -1659,6 +1659,131 @@
         "clawhub"
       ],
       "visibility": "public-showcase"
+    },
+    {
+      "slug": "creator-video-compressor",
+      "category": "Video Operations",
+      "problem": "How to compress videos so they upload faster without destroying practical watch quality?",
+      "input": "Source video, target platform, file size constraints, quality preference",
+      "output": "Smaller platform-ready video with quality-size tradeoff notes",
+      "best_for": "Creators, ecommerce teams, and ad operators dealing with oversized videos",
+      "handoff": "Use the lighter export for upload, review, publishing, or archive",
+      "status": "stable",
+      "stage": "post-production",
+      "priority": 70,
+      "name": "Creator Video Compressor",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
+    },
+    {
+      "slug": "video-resizer",
+      "category": "Video Operations",
+      "problem": "How to resize one video for different platforms without stretching the subject or breaking compatibility?",
+      "input": "Source video, target platform or aspect ratio, crop/pad preference, output size",
+      "output": "Platform-sized video variants with framing notes",
+      "best_for": "Social, ecommerce, and ad teams needing size-specific exports",
+      "handoff": "Export the right version for TikTok, Reels, Shorts, storefronts, or ads",
+      "status": "stable",
+      "stage": "post-production",
+      "priority": 71,
+      "name": "Video Resizer",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
+    },
+    {
+      "slug": "video-trimmer",
+      "category": "Video Operations",
+      "problem": "How to cut away dead air and keep only the useful segment of a video?",
+      "input": "Source video, target duration, keep range, use case",
+      "output": "Trimmed clip with cut rationale and usage notes",
+      "best_for": "Creators, operators, and ecommerce teams extracting usable moments from longer footage",
+      "handoff": "Use the shorter clip for publish, review, highlight, or ad prep",
+      "status": "stable",
+      "stage": "post-production",
+      "priority": 72,
+      "name": "Video Trimmer",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
+    },
+    {
+      "slug": "video-converter",
+      "category": "Video Operations",
+      "problem": "How to convert a video into a more compatible format for upload, sharing, or reuse?",
+      "input": "Source video, current format, target format/platform, quality priority",
+      "output": "Converted delivery-ready file with compatibility rationale",
+      "best_for": "Teams dealing with unsupported, awkward, or hard-to-share video formats",
+      "handoff": "Use the converted file for publishing, sharing, preview, or archive workflows",
+      "status": "stable",
+      "stage": "post-production",
+      "priority": 73,
+      "name": "Video Converter",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
+    },
+    {
+      "slug": "video-cropper",
+      "category": "Video Operations",
+      "problem": "How to crop video framing so the subject is clearer and the output fits the use case better?",
+      "input": "Source video, subject to preserve, framing style, target platform/use case",
+      "output": "Tighter cropped video with framing and motion notes",
+      "best_for": "Creators, ecommerce teams, and ad operators improving focus and composition",
+      "handoff": "Use the tighter framing for social posts, storefront media, ads, or reviews",
+      "status": "stable",
+      "stage": "post-production",
+      "priority": 74,
+      "name": "Video Cropper",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     }
   ]
 }
