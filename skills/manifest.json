@@ -1784,6 +1784,131 @@
         "clawhub"
       ],
       "visibility": "public-showcase"
+    },
+    {
+      "slug": "video-caption-burner",
+      "category": "Video Operations",
+      "problem": "How to make captions always visible by baking them directly into video exports?",
+      "input": "Source video, subtitle file/text, style preference, target platform",
+      "output": "Hardcoded-caption video export with readability notes",
+      "best_for": "Teams publishing captioned social, ad, storefront, or review videos",
+      "handoff": "Use the baked-caption export wherever subtitle tracks are unreliable",
+      "status": "stable",
+      "stage": "post-production",
+      "priority": 75,
+      "name": "Video Caption Burner",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
+    },
+    {
+      "slug": "video-thumbnail-generator",
+      "category": "Video Operations",
+      "problem": "How to get better thumbnail or cover-frame options from an existing video?",
+      "input": "Source video, target platform, desired thumbnail traits, candidate count",
+      "output": "Thumbnail frame shortlist with recommendation and rationale",
+      "best_for": "Creators and ecommerce teams improving video preview quality",
+      "handoff": "Use the chosen frame as the social, storefront, or review cover image",
+      "status": "stable",
+      "stage": "post-production",
+      "priority": 76,
+      "name": "Video Thumbnail Generator",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
+    },
+    {
+      "slug": "video-gif-converter",
+      "category": "Video Operations",
+      "problem": "How to turn a useful video moment into a lightweight GIF snippet?",
+      "input": "Source video, target segment, use case, size/duration constraints",
+      "output": "GIF-ready clip plan with size and clarity tradeoff notes",
+      "best_for": "Teams needing lightweight motion snippets for docs, support, demos, or social",
+      "handoff": "Use the GIF snippet in tickets, docs, chats, product walkthroughs, or promos",
+      "status": "stable",
+      "stage": "post-production",
+      "priority": 77,
+      "name": "Video GIF Converter",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
+    },
+    {
+      "slug": "ugc-video-editor",
+      "category": "Creator Content",
+      "problem": "How to turn rough UGC footage into a cleaner, more usable creator or ad asset?",
+      "input": "Raw UGC video, target use case, tone, duration, key talking points",
+      "output": "UGC cleanup strategy with keep/cut recommendations and tone guidance",
+      "best_for": "Teams repurposing rough UGC into creator, ad, or storefront-ready content",
+      "handoff": "Use the cleaned cut for ads, creator posts, TikTok Shop, or product support content",
+      "status": "stable",
+      "stage": "post-production",
+      "priority": 78,
+      "name": "UGC Video Editor",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
+    },
+    {
+      "slug": "product-demo-cutter",
+      "category": "Video Operations",
+      "problem": "How to cut a long product demo into shorter, more useful product clips?",
+      "input": "Source demo video, product focus, destination, desired clip count/duration",
+      "output": "Product clip extraction plan with best-moment recommendations",
+      "best_for": "Ecommerce teams turning long demos into PDP, ad, creator, or storefront assets",
+      "handoff": "Use the shorter clips in product pages, ads, briefs, or internal review workflows",
+      "status": "stable",
+      "stage": "post-production",
+      "priority": 79,
+      "name": "Product Demo Cutter",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub"
+      ],
+      "visibility": "public-showcase"
     }
   ]
 }
