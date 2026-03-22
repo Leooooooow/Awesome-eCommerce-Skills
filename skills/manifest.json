@@ -1984,6 +1984,32 @@
         "clawhub"
       ],
       "visibility": "public-showcase"
+    },
+    {
+      "slug": "upload-video-converter",
+      "category": "Video Operations",
+      "problem": "video conversion for compatibility and uploads",
+      "input": "Business context, constraints, existing data/content, success criteria",
+      "output": "Action-ready upload video converter output with decision support and next steps",
+      "best_for": "Operators using upload video converter in ecommerce workflows",
+      "handoff": "Use the output in the next execution, reporting, or publishing step",
+      "status": "stable",
+      "stage": "post-production",
+      "priority": 83,
+      "name": "Upload Video Converter",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub",
+        "github"
+      ],
+      "visibility": "public-showcase"
     }
   ]
 }
