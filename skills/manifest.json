@@ -2010,6 +2010,32 @@
         "github"
       ],
       "visibility": "public-showcase"
+    },
+    {
+      "slug": "creator-performance-audit",
+      "category": "Analytics & Reporting",
+      "problem": "creator performance analysis for commerce teams",
+      "input": "Business context, constraints, existing data/content, success criteria",
+      "output": "Action-ready creator performance audit output with decision support and next steps",
+      "best_for": "Operators using creator performance audit in ecommerce workflows",
+      "handoff": "Use the output in the next execution, reporting, or publishing step",
+      "status": "stable",
+      "stage": "analysis",
+      "priority": 84,
+      "name": "Creator Performance Audit",
+      "delivery_mode": "prompt-only",
+      "requires_api": false,
+      "recommended_api": [],
+      "requires_browser": false,
+      "browser_mode": "none",
+      "requires_script": false,
+      "script_runtime": "none",
+      "install_methods": [
+        "skillhub",
+        "clawhub",
+        "github"
+      ],
+      "visibility": "public-showcase"
     }
   ]
 }
